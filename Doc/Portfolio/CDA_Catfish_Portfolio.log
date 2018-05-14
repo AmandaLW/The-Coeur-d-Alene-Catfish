@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.3.4)  14 MAY 2018 12:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.3.4)  14 MAY 2018 12:55
 entering extended mode
 **./CDA_Catfish_Portfolio.tex
 (CDA_Catfish_Portfolio.tex
@@ -436,7 +436,7 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 51.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<assets/uislogan.png, id=27, 1203.49625pt x 243.91125pt>
+<assets/uislogan.png, id=71, 1203.49625pt x 243.91125pt>
 File: assets/uislogan.png Graphic file (type png)
 <use assets/uislogan.png>
 Package pdftex.def Info: assets/uislogan.png  used on input line 66.
@@ -461,22 +461,23 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 88.
- [3] [4]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 102.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 102.
-
-(CDA_Catfish_Portfolio.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 102.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 102.
+ [3] [4] [5] [6]
+[7] [8] [9] [10] [11] [12] [13] [14] [15]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 157.
+ [16]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 157.
+ (CDA_Catfish_Portfolio.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 157.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 157.
 Package rerunfilecheck Info: File `CDA_Catfish_Portfolio.out' has not changed.
-(rerunfilecheck)             Checksum: 39247DE6B8CB08ADEF6DF912C8CB8520;384.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 102.
+(rerunfilecheck)             Checksum: 1A1679DB9BC977D154C40D144B86B600;1025.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 157.
  ) 
 Here is how much of TeX's memory you used:
- 8897 strings out of 493303
- 132974 string characters out of 3138857
+ 8931 strings out of 493303
+ 133261 string characters out of 3138857
  328466 words of memory out of 3000000
- 12316 multiletter control sequences out of 15000+200000
+ 12327 multiletter control sequences out of 15000+200000
  14233 words of font info for 55 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  37i,8n,39p,1191b,378s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -486,9 +487,9 @@ iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKT
 eX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/f
 onts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
 e1/public/amsfonts/cm/cmtt12.pfb>
-Output written on CDA_Catfish_Portfolio.pdf (4 pages, 100758 bytes).
+Output written on CDA_Catfish_Portfolio.pdf (16 pages, 120093 bytes).
 PDF statistics:
- 92 PDF objects out of 1000 (max. 8388607)
- 13 named destinations out of 1000 (max. 500000)
- 54 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 199 PDF objects out of 1000 (max. 8388607)
+ 36 named destinations out of 1000 (max. 500000)
+ 142 words of extra memory for PDF output out of 10000 (max. 10000000)
 
