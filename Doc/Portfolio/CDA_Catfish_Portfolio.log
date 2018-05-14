@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.3.4)  14 MAY 2018 12:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.3.4)  14 MAY 2018 13:03
 entering extended mode
 **./CDA_Catfish_Portfolio.tex
 (CDA_Catfish_Portfolio.tex
@@ -450,46 +450,57 @@ slogan.png>])
 \openout4 = `CDA_Catfish_Portfolio.toc'.
 
  [2]
-Overfull \hbox (6.12978pt too wide) in paragraph at lines 78--82
+Overfull \hbox (6.12978pt too wide) in paragraph at lines 81--85
 \OT1/cmr/m/n/12 This doc-u-men-ta-tion lives at [][]$\OT1/cmtt/m/n/12 https : /
  / github . com / YupHio / LEaD _ Design / tree / master / Doc /
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 88.
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+[3]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 91.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 88.
- [3] [4] [5] [6]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 91.
+ [4] [5] [6]
 [7] [8] [9] [10] [11] [12] [13] [14] [15]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 157.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 160.
  [16]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 157.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 160.
  (CDA_Catfish_Portfolio.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 157.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 157.
-Package rerunfilecheck Info: File `CDA_Catfish_Portfolio.out' has not changed.
-(rerunfilecheck)             Checksum: 1A1679DB9BC977D154C40D144B86B600;1025.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 157.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 160.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 160.
+
+
+Package rerunfilecheck Warning: File `CDA_Catfish_Portfolio.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `CDA_Catfish_Portfolio.out':
+(rerunfilecheck)             Before: 1A1679DB9BC977D154C40D144B86B600;1025
+(rerunfilecheck)             After:  D27AFF2344785C51FCA5D0D86E833C44;1080.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 160.
  ) 
 Here is how much of TeX's memory you used:
- 8931 strings out of 493303
- 133261 string characters out of 3138857
- 328466 words of memory out of 3000000
+ 8933 strings out of 493303
+ 133294 string characters out of 3138857
+ 327466 words of memory out of 3000000
  12327 multiletter control sequences out of 15000+200000
  14233 words of font info for 55 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,8n,39p,1191b,378s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmtt12.pfb>
-Output written on CDA_Catfish_Portfolio.pdf (16 pages, 120093 bytes).
+ 37i,8n,39p,1191b,349s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{subsubsection.1.3.1} has been referenced but does
+ not exist, replaced by a fixed one
+
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmtt12.pfb>
+Output written on CDA_Catfish_Portfolio.pdf (16 pages, 121014 bytes).
 PDF statistics:
- 199 PDF objects out of 1000 (max. 8388607)
- 36 named destinations out of 1000 (max. 500000)
+ 204 PDF objects out of 1000 (max. 8388607)
+ 38 named destinations out of 1000 (max. 500000)
  142 words of extra memory for PDF output out of 10000 (max. 10000000)
 
