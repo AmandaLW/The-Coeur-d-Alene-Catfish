@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.3.4)  14 MAY 2018 13:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.3.4)  21 MAY 2018 12:12
 entering extended mode
 **./CDA_Catfish_Portfolio.tex
 (CDA_Catfish_Portfolio.tex
@@ -426,6 +426,11 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
+<assets/LOGO_Catfish.png, id=75, 190.311pt x 198.9834pt>
+File: assets/LOGO_Catfish.png Graphic file (type png)
+<use assets/LOGO_Catfish.png>
+Package pdftex.def Info: assets/LOGO_Catfish.png  used on input line 39.
+(pdftex.def)             Requested size: 211.38832pt x 221.0351pt.
 LaTeX Font Info:    Try loading font information for U+msa on input line 51.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
@@ -436,7 +441,7 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 51.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<assets/uislogan.png, id=71, 1203.49625pt x 243.91125pt>
+<assets/uislogan.png, id=77, 1203.49625pt x 243.91125pt>
 File: assets/uislogan.png Graphic file (type png)
 <use assets/uislogan.png>
 Package pdftex.def Info: assets/uislogan.png  used on input line 66.
@@ -444,15 +449,15 @@ Package pdftex.def Info: assets/uislogan.png  used on input line 66.
 
 (CDA_Catfish_Portfolio.toc [1
 
-{C:/Users/Owner/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./assets/ui
-slogan.png>])
+{C:/Users/Owner/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./assets/LO
+GO_Catfish.png> <./assets/uislogan.png>])
 \tf@toc=\write4
 \openout4 = `CDA_Catfish_Portfolio.toc'.
 
  [2]
-Overfull \hbox (6.12978pt too wide) in paragraph at lines 81--85
-\OT1/cmr/m/n/12 This doc-u-men-ta-tion lives at [][]$\OT1/cmtt/m/n/12 https : /
- / github . com / YupHio / LEaD _ Design / tree / master / Doc /
+Overfull \hbox (29.18105pt too wide) in paragraph at lines 81--85
+\OT1/cmr/m/n/12 Documentation and code for the project can be found at [][]$\OT
+1/cmtt/m/n/12 https : / / github . com / TimetoPretend54 /
  []
 
 [3]
@@ -470,37 +475,27 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 160.
  (CDA_Catfish_Portfolio.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 160.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 160.
-
-
-Package rerunfilecheck Warning: File `CDA_Catfish_Portfolio.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `CDA_Catfish_Portfolio.out':
-(rerunfilecheck)             Before: 1A1679DB9BC977D154C40D144B86B600;1025
-(rerunfilecheck)             After:  D27AFF2344785C51FCA5D0D86E833C44;1080.
+Package rerunfilecheck Info: File `CDA_Catfish_Portfolio.out' has not changed.
+(rerunfilecheck)             Checksum: 27CDC378D0586FC96D8443539D49184C;1065.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 160.
  ) 
 Here is how much of TeX's memory you used:
- 8933 strings out of 493303
- 133294 string characters out of 3138857
- 327466 words of memory out of 3000000
- 12327 multiletter control sequences out of 15000+200000
+ 8938 strings out of 493303
+ 133418 string characters out of 3138857
+ 328466 words of memory out of 3000000
+ 12332 multiletter control sequences out of 15000+200000
  14233 words of font info for 55 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,8n,39p,1191b,349s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{subsubsection.1.3.1} has been referenced but does
- not exist, replaced by a fixed one
-
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmtt12.pfb>
-Output written on CDA_Catfish_Portfolio.pdf (16 pages, 121014 bytes).
+ 37i,8n,39p,1939b,349s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmtt12.pfb>
+Output written on CDA_Catfish_Portfolio.pdf (16 pages, 280790 bytes).
 PDF statistics:
- 204 PDF objects out of 1000 (max. 8388607)
- 38 named destinations out of 1000 (max. 500000)
- 142 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 208 PDF objects out of 1000 (max. 8388607)
+ 37 named destinations out of 1000 (max. 500000)
+ 155 words of extra memory for PDF output out of 10000 (max. 10000000)
 
