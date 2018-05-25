@@ -30,21 +30,22 @@ def bubbleSort(arr):
 def read_Sensor_GPIO(RXD, pi):
 
 	# Array of five elements
-	bubbleSortArray = [None] * 5
+	bubbleSortArray = [None] * 3
 
 	i = 0
 
 	while True:
-		if i == 5:
+		if i == 3:
 			bubbleSort(bubbleSortArray)
-			byteArrayString = str(bubbleSortArray[2])[1:4]			# One readding is array size 5 (want to skip "R" in R# data reading, so we just have length as #, thus skip 1st element)
-			byteArrayString2 = str(bubbleSortArray[2])
-			return byteArrayString
+			#byteArrayString = str(bubbleSortArray[2])[1:4]			# One readding is array size 5 (want to skip "R" in R# data reading, so we just have length as #, thus skip 1st element)
+			#byteArrayString2 = str(bubbleSortArray[2])
+			return bubbleSortArray[1]
+			i = 0
 		(count, data) = pi.bb_serial_read(RXD)
 		if count:
-			bubbleSortArray[i] = data
+			bubbleSortArray[i] = str(data[1:4])
 			i = i + 1
-			#print data
+			time.sleep(.01)
 
 		# .1 second is time it takes to gather one "reading" from sensor (R#), thus .2 gather 2, .3 is 3 and so on
 		time.sleep(.1)
