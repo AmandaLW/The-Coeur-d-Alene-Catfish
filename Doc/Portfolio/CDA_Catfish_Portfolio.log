@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.3.4)  21 MAY 2018 12:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.3.4)  29 MAY 2018 11:55
 entering extended mode
 **./CDA_Catfish_Portfolio.tex
 (CDA_Catfish_Portfolio.tex
@@ -426,11 +426,11 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-<assets/LOGO_Catfish.png, id=75, 190.311pt x 198.9834pt>
-File: assets/LOGO_Catfish.png Graphic file (type png)
-<use assets/LOGO_Catfish.png>
-Package pdftex.def Info: assets/LOGO_Catfish.png  used on input line 39.
-(pdftex.def)             Requested size: 211.38832pt x 221.0351pt.
+<assets/New_Logov2.png, id=75, 1064.97874pt x 1158.3275pt>
+File: assets/New_Logov2.png Graphic file (type png)
+<use assets/New_Logov2.png>
+Package pdftex.def Info: assets/New_Logov2.png  used on input line 39.
+(pdftex.def)             Requested size: 211.38832pt x 229.9116pt.
 LaTeX Font Info:    Try loading font information for U+msa on input line 51.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
@@ -449,8 +449,8 @@ Package pdftex.def Info: assets/uislogan.png  used on input line 66.
 
 (CDA_Catfish_Portfolio.toc [1
 
-{C:/Users/Owner/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./assets/LO
-GO_Catfish.png> <./assets/uislogan.png>])
+{C:/Users/Owner/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./assets/Ne
+w_Logov2.png> <./assets/uislogan.png>])
 \tf@toc=\write4
 \openout4 = `CDA_Catfish_Portfolio.toc'.
 
@@ -481,7 +481,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 160.
  ) 
 Here is how much of TeX's memory you used:
  8938 strings out of 493303
- 133418 string characters out of 3138857
+ 133408 string characters out of 3138857
  328466 words of memory out of 3000000
  12332 multiletter control sequences out of 15000+200000
  14233 words of font info for 55 fonts, out of 3000000 for 9000
@@ -493,7 +493,7 @@ iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKT
 eX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/f
 onts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
 e1/public/amsfonts/cm/cmtt12.pfb>
-Output written on CDA_Catfish_Portfolio.pdf (16 pages, 280790 bytes).
+Output written on CDA_Catfish_Portfolio.pdf (16 pages, 166911 bytes).
 PDF statistics:
  208 PDF objects out of 1000 (max. 8388607)
  37 named destinations out of 1000 (max. 500000)
