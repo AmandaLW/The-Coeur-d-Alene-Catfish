@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.5.17)  22 MAY 2018 14:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.5.17)  31 MAY 2018 16:24
 entering extended mode
 **"./Main Book.tex"
 ("Main Book.tex"
@@ -506,11 +506,11 @@ Package: scrtime 2018/03/30 v3.25 KOMA-Script package (time of LaTeX run)
 Package: arsclassica 2017/10/31
 
 (D:\ProgramFiles\MiKTex\tex\latex\caption\caption.sty
-Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+Package: caption 2018/05/01 v3.3-147 Customizing captions (AR)
 
 (D:\ProgramFiles\MiKTex\tex\latex\caption\caption3.sty
-Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 67.
+Package: caption3 2018/05/27 v1.8a caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 64.
 \captionmargin=\dimen126
 \captionmargin@=\dimen127
 \captionwidth=\dimen128
@@ -1556,13 +1556,13 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 253.
  ) 
 Here is how much of TeX's memory you used:
- 17759 strings out of 493305
- 308025 string characters out of 3141062
- 606947 words of memory out of 3000000
- 20920 multiletter control sequences out of 15000+200000
+ 17786 strings out of 493305
+ 308693 string characters out of 3141062
+ 607389 words of memory out of 3000000
+ 20947 multiletter control sequences out of 15000+200000
  189601 words of font info for 244 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
- 62i,22n,86p,9092b,630s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,22n,86p,9092b,636s stack positions out of 5000i,500n,10000p,200000b,50000s
 {D:/ProgramFiles/MiKTex/fonts/enc/dvips/iwona/ec-iwona.enc}{D:/ProgramFiles/M
 iKTex/fonts/enc/dvips/base/8r.enc}{D:/ProgramFiles/MiKTex/fonts/enc/dvips/iwona
 /ec-iwona-sc.enc}{D:/ProgramFiles/MiKTex/fonts/enc/dvips/stix/stix-t1.enc}<D:/P
