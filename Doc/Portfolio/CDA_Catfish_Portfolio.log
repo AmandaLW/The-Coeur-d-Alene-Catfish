@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.3.4)  29 MAY 2018 11:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.3.4)  31 MAY 2018 11:42
 entering extended mode
 **./CDA_Catfish_Portfolio.tex
 (CDA_Catfish_Portfolio.tex
@@ -426,11 +426,11 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-<assets/New_Logov2.png, id=75, 1064.97874pt x 1158.3275pt>
-File: assets/New_Logov2.png Graphic file (type png)
-<use assets/New_Logov2.png>
-Package pdftex.def Info: assets/New_Logov2.png  used on input line 39.
-(pdftex.def)             Requested size: 211.38832pt x 229.9116pt.
+<assets/New_Logov1.png, id=75, 1065.9825pt x 1425.325pt>
+File: assets/New_Logov1.png Graphic file (type png)
+<use assets/New_Logov1.png>
+Package pdftex.def Info: assets/New_Logov1.png  used on input line 39.
+(pdftex.def)             Requested size: 178.5092pt x 238.67001pt.
 LaTeX Font Info:    Try loading font information for U+msa on input line 51.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
@@ -445,12 +445,12 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: assets/uislogan.png Graphic file (type png)
 <use assets/uislogan.png>
 Package pdftex.def Info: assets/uislogan.png  used on input line 66.
-(pdftex.def)             Requested size: 328.82707pt x 66.64221pt.
+(pdftex.def)             Requested size: 281.85587pt x 57.12189pt.
 
 (CDA_Catfish_Portfolio.toc [1
 
 {C:/Users/Owner/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./assets/Ne
-w_Logov2.png> <./assets/uislogan.png>])
+w_Logov1.png> <./assets/uislogan.png>])
 \tf@toc=\write4
 \openout4 = `CDA_Catfish_Portfolio.toc'.
 
@@ -493,7 +493,7 @@ iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKT
 eX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/f
 onts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
 e1/public/amsfonts/cm/cmtt12.pfb>
-Output written on CDA_Catfish_Portfolio.pdf (16 pages, 166911 bytes).
+Output written on CDA_Catfish_Portfolio.pdf (16 pages, 185500 bytes).
 PDF statistics:
  208 PDF objects out of 1000 (max. 8388607)
  37 named destinations out of 1000 (max. 500000)
