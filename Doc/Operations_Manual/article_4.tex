@@ -14,6 +14,26 @@
 % CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% CDA Catfish Operations Manual
+% Samantha Freitas
+%
+%Vertical Line Title Page
+% LaTeX Template
+% Version 2.0 (22/7/17)
+%
+% This template was downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Peter Wilson (herries.press@earthlink.net) with modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+% 
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %----------------------------------------------------------------------------------------
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
@@ -31,24 +51,57 @@ BCOR5mm, % Binding correction
 \input{structure.tex} % Include the structure.tex file which specified the document structure and layout
 
 \hyphenation{Fortran hy-phen-ation} % Specify custom hyphenation points in words with dashes where you would like hyphenation to occur, or alternatively, don't put any dashes in a word to stop hyphenation altogether
-\usepackage{stix} % Use the STIX fonts
+\documentclass[a4paper, 11pt]{book} % A4 paper size and default 11pt font size
+
+\usepackage{graphicx}
+\usepackage[utf8]{inputenc} % Required for inputting international characters
+\usepackage[T1]{fontenc} % Output font encoding for international characters
+
 
 %----------------------------------------------------------------------------------------
 %	TITLE AND AUTHOR(S)
 %----------------------------------------------------------------------------------------
 
-\title{\normalfont\spacedallcaps{Operations Manual}} % The article title
+\title{\normalfont\spacedallcaps{Article Title}} % The article title
 
 %\subtitle{Subtitle} % Uncomment to display a subtitle
 
-\author{\spacedlowsmallcaps{Samantha Freitas \& Adrian Beehner*}} % The article author(s) - author affiliations need to be specified in the AUTHOR AFFILIATIONS block
+\author{\spacedlowsmallcaps{John Smith* \& James Smith\textsuperscript{1}}} % The article author(s) - author affiliations need to be specified in the AUTHOR AFFILIATIONS block
 
 \date{} % An optional date to appear under the author(s)
 
 %----------------------------------------------------------------------------------------
 
 \begin{document}
-
+	
+	%----------------------------------------------------------------------------------------
+	%	TITLE PAGE
+	%----------------------------------------------------------------------------------------
+	
+	\begin{titlepage} % Suppresses displaying the page number on the title page and the subsequent page counts as page 1
+		
+		\raggedleft % Right align the title page
+		
+		\rule{1pt}{\textheight} % Vertical line
+		\hspace{0.05\textwidth} % Whitespace between the vertical line and title page text
+		\parbox[b]{0.75\textwidth}{ % Paragraph box for holding the title page text, adjust the width to move the title page left or right on the page
+			
+			{\Huge\bfseries CDA Catfish
+				\\[0.5\baselineskip] Robotic Submarine}\\[2\baselineskip] % Title
+			{\large\textit{Operations
+					Manual}}\\[4\baselineskip] % Subtitle or further description
+			{\Large\textsc{samantha freitas, adrian beehner}} % Author name, lower case for consistent small caps
+			
+			\vspace{0.5\textheight} % Whitespace between the title block and the publisher
+			
+			{\noindent University of Idaho~~
+				\includegraphics[width=0.08\linewidth]{Logos/compsci-cda-curcuit-sticker.png}}\\[\baselineskip] % Publisher and logo
+		}
+		
+	\end{titlepage}
+	
+	%----------------------------------------------------------------------------------------
+	
 %----------------------------------------------------------------------------------------
 %	HEADERS
 %----------------------------------------------------------------------------------------
@@ -69,12 +122,25 @@ BCOR5mm, % Binding correction
 
 \tableofcontents % Print the table of contents
 
+\listoffigures % Print the list of figures
+
+\listoftables % Print the list of tables
+
+%----------------------------------------------------------------------------------------
+%	ABSTRACT
+%----------------------------------------------------------------------------------------
+
+\section*{Abstract} % This section will not appear in the table of contents due to the star (\section*)
+
+\lipsum[1] % Dummy text
 
 %----------------------------------------------------------------------------------------
 %	AUTHOR AFFILIATIONS
 %----------------------------------------------------------------------------------------
 
-\let\thefootnote\relax\footnotetext{* \textit{Head Honcho, Coeur d'Alene Catfish Project, Coeur d'Alene, Idaho}}
+\let\thefootnote\relax\footnotetext{* \textit{Department of Biology, University of Examples, London, United Kingdom}}
+
+\let\thefootnote\relax\footnotetext{\textsuperscript{1} \textit{Department of Chemistry, University of Examples, London, United Kingdom}}
 
 %----------------------------------------------------------------------------------------
 
@@ -88,20 +154,16 @@ BCOR5mm, % Binding correction
 
 A statement requiring citation \cite{Figueredo:2009dg}.
 
-Text for Intro
+\lipsum[1-3] % Dummy text
 
 Some mathematics in the text: $\cos\pi=-1$ and $\alpha$.
-
-\subsection*{Overview}
-\subsection*{Purpose \& Scope}
-\subsection*{Term Defenitions?}
  
 %----------------------------------------------------------------------------------------
-%	COMPONENTS
+%	METHODS
 %----------------------------------------------------------------------------------------
 
-\section{Basic Operations}
-\subsection{Components}
+\section{Methods}
+
 \lipsum[5] % Dummy text
 
 \begin{enumerate}[noitemsep] % [noitemsep] removes whitespace between the items for a compact look
@@ -112,7 +174,7 @@ Some mathematics in the text: $\cos\pi=-1$ and $\alpha$.
 
 %------------------------------------------------
 
-\subsection{Power on/off}
+\subsection{Paragraphs}
 
 \lipsum[6] % Dummy text
 
@@ -122,7 +184,7 @@ Some mathematics in the text: $\cos\pi=-1$ and $\alpha$.
 
 %------------------------------------------------
 
-\subsection{Charging Battery}
+\subsection{Math}
 
 \lipsum[4] % Dummy text
 
@@ -149,65 +211,11 @@ But we also have that $\log(-1)^2=\log(1)=0$.
 Then $2\log(-1)=0$, from which the proof.
 \end{proof}
 
-%------------------------------------------------
-
-\subsection{Deployment}
-
-\lipsum[6] % Dummy text
-
-\paragraph{Paragraph Description} \lipsum[7] % Dummy text
-
-\paragraph{Different Paragraph Description} \lipsum[8] % Dummy text
-
-%------------------------------------------------
-
-%------------------------------------------------
-
-\subsection{Checks}
-
-\lipsum[6] % Dummy text
-
-\paragraph{Paragraph Description} \lipsum[7] % Dummy text
-
-\paragraph{Different Paragraph Description} \lipsum[8] % Dummy text
-
-%------------------------------------------------
-
 %----------------------------------------------------------------------------------------
-%	USING SOFTWARE
+%	RESULTS AND DISCUSSION
 %----------------------------------------------------------------------------------------
 
-\section{Using Software}
-
-%------------------------------------------------
-
-\subsection{Moving the Submarine}
-
-\lipsum[6] % Dummy text
-
-\paragraph{Paragraph Description} \lipsum[7] % Dummy text
-
-\paragraph{Different Paragraph Description} \lipsum[8] % Dummy text
-
-%------------------------------------------------
-
-%------------------------------------------------
-
-\subsection{Taking Pics/Video}
-
-\lipsum[6] % Dummy text
-
-\paragraph{Paragraph Description} \lipsum[7] % Dummy text
-
-\paragraph{Different Paragraph Description} \lipsum[8] % Dummy text
-
-%------------------------------------------------
-
-%----------------------------------------------------------------------------------------
-%	SYSTEM CONFIG
-%----------------------------------------------------------------------------------------
-
-\section{System Configuration}
+\section{Results and Discussion}
 
 Reference to Figure~\vref{fig:gallery}. % The \vref command specifies the location of the reference
 
@@ -222,11 +230,11 @@ Reference to Figure~\vref{fig:gallery}. % The \vref command specifies the locati
 
 %------------------------------------------------
 
-\subsection{Configuring 3D map?}
+\subsection{Subsection}
 
 \lipsum[11] % Dummy text
 
-\subsubsection{Handling Gear}
+\subsubsection{Subsubsection}
 
 \lipsum[12] % Dummy text
 
@@ -244,7 +252,7 @@ Reference to Figure~\vref{fig:gallery}. % The \vref command specifies the locati
 \item Third item in a list
 \end{itemize}
 
-\subsubsection{Vehicle}
+\subsubsection{Table}
 
 \lipsum[13] % Dummy text
 
@@ -268,7 +276,7 @@ Reference to Table~\vref{tab:label}. % The \vref command specifies the location 
 
 %------------------------------------------------
 
-\subsection{Where to save pictures?}
+\subsection{Figure Composed of Subfigures}
 
 Reference the figure composed of multiple subfigures as Figure~\vref{fig:esempio}. Reference one of the subfigures as Figure~\vref{fig:ipsum}. % The \vref command specifies the location of the reference
 
@@ -283,67 +291,6 @@ Reference the figure composed of multiple subfigures as Figure~\vref{fig:esempio
 \caption[A number of pictures.]{A number of pictures with no common theme.} % The text in the square bracket is the caption for the list of figures while the text in the curly brackets is the figure caption
 \label{fig:esempio}
 \end{figure}
-
---------------------------------
-%	CONSUMER INFO
-%----------------------------------------------------------------------------------------
-
-\section{Consumer Info}
-
-\subsection{Legal Notices}
-\lipsum[5] % Dummy text
-
-\begin{enumerate}[noitemsep] % [noitemsep] removes whitespace between the items for a compact look
-	\item First item in a list
-	\item Second item in a list
-	\item Third item in a list
-\end{enumerate}
-
-\subsection{Code of Conduct}
-\lipsum[5] % Dummy text
-
-\begin{enumerate}[noitemsep] % [noitemsep] removes whitespace between the items for a compact look
-	\item First item in a list
-	\item Second item in a list
-	\item Third item in a list
-\end{enumerate}
-
-\subsection{Regulations}
-\lipsum[5] % Dummy text
-
-\begin{enumerate}[noitemsep] % [noitemsep] removes whitespace between the items for a compact look
-	\item First item in a list
-	\item Second item in a list
-	\item Third item in a list
-\end{enumerate}
-
-\subsection{Troubleshooting}
-\lipsum[5] % Dummy text
-
-\begin{enumerate}[noitemsep] % [noitemsep] removes whitespace between the items for a compact look
-	\item First item in a list
-	\item Second item in a list
-	\item Third item in a list
-\end{enumerate}
-
-\subsection{Privacy Policy}
-\lipsum[5] % Dummy text
-
-\begin{enumerate}[noitemsep] % [noitemsep] removes whitespace between the items for a compact look
-	\item First item in a list
-	\item Second item in a list
-	\item Third item in a list
-\end{enumerate}
-
-\subsection{Specifications}
-\lipsum[5] % Dummy text
-
-\begin{enumerate}[noitemsep] % [noitemsep] removes whitespace between the items for a compact look
-	\item First item in a list
-	\item Second item in a list
-	\item Third item in a list
-\end{enumerate}
-
 
 %----------------------------------------------------------------------------------------
 %	BIBLIOGRAPHY

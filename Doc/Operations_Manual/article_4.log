@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.5.17)  4 JUN 2018 13:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.5.17)  31 MAY 2018 16:23
 entering extended mode
-**"./Main Book.tex"
-("Main Book.tex"
+**./article_4.tex
+(article_4.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 75 language(s) loaded.
 (D:\ProgramFiles\MiKTex\tex\latex\koma-script\scrartcl.cls
@@ -919,23 +919,9 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
 \c@lips@count=\count108
 )
-(D:\ProgramFiles\MiKTex\tex\latex\subfig\subfig.sty
-Package: subfig 2005/06/28 ver: 1.3 subfig package
-\c@KVtest=\count109
-\sf@farskip=\skip98
-\sf@captopadj=\dimen136
-\sf@capskip=\skip99
-\sf@nearskip=\skip100
-\c@subfigure=\count110
-\c@subfigure@save=\count111
-\c@subtable=\count112
-\c@subtable@save=\count113
-\sf@top=\skip101
-\sf@bottom=\skip102
-)
 (D:\ProgramFiles\MiKTex\tex\latex\amsmath\amsmath.sty
 Package: amsmath 2017/09/02 v2.17a AMS math features
-\@mathmargin=\skip103
+\@mathmargin=\skip98
 
 For additional information on amsmath, use the `?' option.
 (D:\ProgramFiles\MiKTex\tex\latex\amsmath\amstext.sty
@@ -944,49 +930,49 @@ Package: amstext 2000/06/29 v2.01 AMS text
 (D:\ProgramFiles\MiKTex\tex\latex\amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks20
-\ex@=\dimen137
+\ex@=\dimen136
 ))
 (D:\ProgramFiles\MiKTex\tex\latex\amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen138
+\pmbraise@=\dimen137
 )
 (D:\ProgramFiles\MiKTex\tex\latex\amsmath\amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count114
+\inf@bad=\count109
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count115
-\leftroot@=\count116
+\uproot@=\count110
+\leftroot@=\count111
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count117
-\DOTSCASE@=\count118
+\classnum@=\count112
+\DOTSCASE@=\count113
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
 \Mathstrutbox@=\box30
 \strutbox@=\box31
-\big@size=\dimen139
+\big@size=\dimen138
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count119
-\c@MaxMatrixCols=\count120
+\macc@depth=\count114
+\c@MaxMatrixCols=\count115
 \dotsspace@=\muskip11
-\c@parentequation=\count121
-\dspbrk@lvl=\count122
+\c@parentequation=\count116
+\dspbrk@lvl=\count117
 \tag@help=\toks21
-\row@=\count123
-\column@=\count124
-\maxfields@=\count125
+\row@=\count118
+\column@=\count119
+\maxfields@=\count120
 \andhelp@=\toks22
-\eqnshift@=\dimen140
-\alignsep@=\dimen141
-\tagshift@=\dimen142
-\tagwidth@=\dimen143
-\totwidth@=\dimen144
-\lineht@=\dimen145
+\eqnshift@=\dimen139
+\alignsep@=\dimen140
+\tagshift@=\dimen141
+\tagwidth@=\dimen142
+\totwidth@=\dimen143
+\lineht@=\dimen144
 \@envbody=\toks23
-\multlinegap=\skip104
-\multlinetaggap=\skip105
+\multlinegap=\skip99
+\multlinetaggap=\skip100
 \mathdisplay@stack=\toks24
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
@@ -1008,317 +994,63 @@ Package: amsthm 2017/10/31 v2.20.4
 \thm@headfont=\toks27
 \thm@notefont=\toks28
 \thm@headpunct=\toks29
-\thm@preskip=\skip106
-\thm@postskip=\skip107
-\thm@headsep=\skip108
+\thm@preskip=\skip101
+\thm@postskip=\skip102
+\thm@headsep=\skip103
 \dth@everypar=\toks30
 )
 (D:\ProgramFiles\MiKTex\tex\latex\tools\varioref.sty
 Package: varioref 2016/02/16 v1.5c package for extended references (FMi)
-\c@vrcnt=\count126
+\c@vrcnt=\count121
 )
-\c@definition=\count127
-\c@theorem=\count128
-Package hyperref Info: Option `colorlinks' set `true' on input line 74.
-Package hyperref Info: Option `breaklinks' set `true' on input line 74.
+\c@definition=\count122
+\c@theorem=\count123
+Package hyperref Info: Option `colorlinks' set `true' on input line 72.
+Package hyperref Info: Option `breaklinks' set `true' on input line 72.
 
 
 Package hyperref Warning: Option `bookmarks' has already been used,
-(hyperref)                setting the option has no effect on input line 74.
+(hyperref)                setting the option has no effect on input line 72.
 
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 74.
-) (D:\ProgramFiles\MiKTex\tex\latex\stix\stix.sty
-Package: stix 2018/04/17 v1.1.3-latex STIX fonts support package
-
-(D:\ProgramFiles\MiKTex\tex\latex\base\textcomp.sty
-Package: textcomp 2017/04/05 v2.0i Standard LaTeX package
-Package textcomp Info: Sub-encoding information:
-(textcomp)               5 = only ISO-Adobe without \textcurrency
-(textcomp)               4 = 5 + \texteuro
-(textcomp)               3 = 4 + \textohm
-(textcomp)               2 = 3 + \textestimated + \textcurrency
-(textcomp)               1 = TS1 - \textcircled - \t
-(textcomp)               0 = TS1 (full)
-(textcomp)             Font families with sub-encoding setting implement
-(textcomp)             only a restricted character set as indicated.
-(textcomp)             Family '?' is the default used for unknown fonts.
-(textcomp)             See the documentation for details.
-Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
-Package textcomp Info: Changing ? sub-encoding to TS1/0 on input line 80.
-
-(D:\ProgramFiles\MiKTex\tex\latex\base\ts1enc.def
-File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
-Now handling font encoding TS1 ...
-... processing UTF-8 mapping file for font encoding TS1
-
-(D:\ProgramFiles\MiKTex\tex\latex\base\ts1enc.dfu
-File: ts1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
-   defining Unicode char U+00A2 (decimal 162)
-   defining Unicode char U+00A3 (decimal 163)
-   defining Unicode char U+00A4 (decimal 164)
-   defining Unicode char U+00A5 (decimal 165)
-   defining Unicode char U+00A6 (decimal 166)
-   defining Unicode char U+00A7 (decimal 167)
-   defining Unicode char U+00A8 (decimal 168)
-   defining Unicode char U+00A9 (decimal 169)
-   defining Unicode char U+00AA (decimal 170)
-   defining Unicode char U+00AC (decimal 172)
-   defining Unicode char U+00AE (decimal 174)
-   defining Unicode char U+00AF (decimal 175)
-   defining Unicode char U+00B0 (decimal 176)
-   defining Unicode char U+00B1 (decimal 177)
-   defining Unicode char U+00B2 (decimal 178)
-   defining Unicode char U+00B3 (decimal 179)
-   defining Unicode char U+00B4 (decimal 180)
-   defining Unicode char U+00B5 (decimal 181)
-   defining Unicode char U+00B6 (decimal 182)
-   defining Unicode char U+00B7 (decimal 183)
-   defining Unicode char U+00B9 (decimal 185)
-   defining Unicode char U+00BA (decimal 186)
-   defining Unicode char U+00BC (decimal 188)
-   defining Unicode char U+00BD (decimal 189)
-   defining Unicode char U+00BE (decimal 190)
-   defining Unicode char U+00D7 (decimal 215)
-   defining Unicode char U+00F7 (decimal 247)
-   defining Unicode char U+0192 (decimal 402)
-   defining Unicode char U+02C7 (decimal 711)
-   defining Unicode char U+02D8 (decimal 728)
-   defining Unicode char U+02DD (decimal 733)
-   defining Unicode char U+0E3F (decimal 3647)
-   defining Unicode char U+2016 (decimal 8214)
-   defining Unicode char U+2020 (decimal 8224)
-   defining Unicode char U+2021 (decimal 8225)
-   defining Unicode char U+2022 (decimal 8226)
-   defining Unicode char U+2030 (decimal 8240)
-   defining Unicode char U+2031 (decimal 8241)
-   defining Unicode char U+203B (decimal 8251)
-   defining Unicode char U+203D (decimal 8253)
-   defining Unicode char U+2044 (decimal 8260)
-   defining Unicode char U+204E (decimal 8270)
-   defining Unicode char U+2052 (decimal 8274)
-   defining Unicode char U+20A1 (decimal 8353)
-   defining Unicode char U+20A4 (decimal 8356)
-   defining Unicode char U+20A6 (decimal 8358)
-   defining Unicode char U+20A9 (decimal 8361)
-   defining Unicode char U+20AB (decimal 8363)
-   defining Unicode char U+20AC (decimal 8364)
-   defining Unicode char U+20B1 (decimal 8369)
-   defining Unicode char U+2103 (decimal 8451)
-   defining Unicode char U+2116 (decimal 8470)
-   defining Unicode char U+2117 (decimal 8471)
-   defining Unicode char U+211E (decimal 8478)
-   defining Unicode char U+2120 (decimal 8480)
-   defining Unicode char U+2122 (decimal 8482)
-   defining Unicode char U+2126 (decimal 8486)
-   defining Unicode char U+2127 (decimal 8487)
-   defining Unicode char U+212E (decimal 8494)
-   defining Unicode char U+2190 (decimal 8592)
-   defining Unicode char U+2191 (decimal 8593)
-   defining Unicode char U+2192 (decimal 8594)
-   defining Unicode char U+2193 (decimal 8595)
-   defining Unicode char U+2329 (decimal 9001)
-   defining Unicode char U+232A (decimal 9002)
-   defining Unicode char U+2422 (decimal 9250)
-   defining Unicode char U+25E6 (decimal 9702)
-   defining Unicode char U+25EF (decimal 9711)
-   defining Unicode char U+266A (decimal 9834)
-))
-LaTeX Info: Redefining \oldstylenums on input line 334.
-Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
-Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
-Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
-Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
-Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
-Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
-Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
-Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
-Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
-Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
-Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
-Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
-Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
-Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
-Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
-Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
-Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
-Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
-Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
-Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
-Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
-Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
-Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
-Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
-
-Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
-Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
-Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
-Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
-Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
-Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
-Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
-Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
-Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
-Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
-Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
-Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
-Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
-Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
-Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
-Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
-Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
-Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
-Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
-Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
-Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
-Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
-Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
-Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
-Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
-Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
-Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
-Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
-Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
-Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
-Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
-Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
-Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
-Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
-Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
-Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
-Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 72.
 )
-Now handling font encoding LS1 ...
-... no UTF-8 mapping file for font encoding LS1
-Now handling font encoding LS2 ...
-... no UTF-8 mapping file for font encoding LS2
-LaTeX Font Info:    Redeclaring symbol font `letters' on input line 76.
-LaTeX Font Info:    Encoding `U' has changed to `LS1' for symbol font
-(Font)              `letters' in the math version `normal' on input line 76.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
-(Font)                  U/zeur/m/n --> LS1/stix/m/it on input line 76.
-LaTeX Font Info:    Encoding `U' has changed to `LS1' for symbol font
-(Font)              `letters' in the math version `bold' on input line 76.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  U/zeur/b/n --> LS1/stix/m/it on input line 76.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 77.
-LaTeX Font Info:    Encoding `OT1' has changed to `LS1' for symbol font
-(Font)              `operators' in the math version `normal' on input line 77.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/pplj/m/n --> LS1/stix/m/n on input line 77.
-LaTeX Font Info:    Encoding `OT1' has changed to `LS1' for symbol font
-(Font)              `operators' in the math version `bold' on input line 77.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/pplj/b/n --> LS1/stix/m/n on input line 77.
-\symbold-operators=\mathgroup7
-LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 79.
-LaTeX Font Info:    Encoding `U' has changed to `LS1' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 79.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  U/zeus/m/n --> LS1/stixscr/m/n on input line 79.
-LaTeX Font Info:    Encoding `U' has changed to `LS1' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 79.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  U/zeus/b/n --> LS1/stixscr/m/n on input line 79.
-\symsymbols2=\mathgroup8
-\symsymbols3=\mathgroup9
-\symsymbols4=\mathgroup10
-\symintegrals=\mathgroup11
-LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 84.
-LaTeX Font Info:    Encoding `U' has changed to `LS2' for symbol font
-(Font)              `largesymbols' in the math version `normal' on input line 8
-4.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  U/zeuex/m/n --> LS2/stixex/m/n on input line 84.
-LaTeX Font Info:    Encoding `U' has changed to `LS2' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 84.
 
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  U/zeuex/m/n --> LS2/stixex/m/n on input line 84.
-\symarrows1=\mathgroup12
-\symarrows2=\mathgroup13
-\symarrows3=\mathgroup14
-LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  LS1/stix/m/it --> LS1/stix/b/it on input line 88.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  LS1/stix/m/n --> LS1/stix/b/n on input line 89.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  LS1/stixscr/m/n --> LS1/stixscr/b/n on input line 90.
-LaTeX Font Info:    Overwriting symbol font `symbols2' in version `bold'
-(Font)                  LS1/stixfrak/m/n --> LS1/stixfrak/b/n on input line 91.
+! LaTeX Error: Two \documentclass or \documentstyle commands.
 
-LaTeX Font Info:    Overwriting symbol font `symbols3' in version `bold'
-(Font)                  LS1/stixbb/m/n --> LS1/stixbb/b/n on input line 92.
-LaTeX Font Info:    Overwriting symbol font `symbols4' in version `bold'
-(Font)                  LS1/stixbb/m/it --> LS1/stixbb/b/it on input line 93.
-LaTeX Font Info:    Overwriting symbol font `integrals' in version `bold'
-(Font)                  LS2/stixcal/m/n --> LS2/stixcal/b/n on input line 94.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  LS2/stixex/m/n --> LS2/stixex/b/n on input line 95.
-LaTeX Font Info:    Overwriting symbol font `arrows1' in version `bold'
-(Font)                  LS1/stixsf/m/n --> LS1/stixsf/b/n on input line 96.
-LaTeX Font Info:    Overwriting symbol font `arrows2' in version `bold'
-(Font)                  LS1/stixsf/m/it --> LS1/stixsf/b/it on input line 97.
-LaTeX Font Info:    Overwriting symbol font `arrows3' in version `bold'
-(Font)                  LS2/stixtt/m/n --> LS2/stixtt/b/n on input line 98.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 99.
-LaTeX Font Info:    Redeclaring math alphabet \mathfrak on input line 102.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 106.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 108.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 109.
-LaTeX Info: Redefining \yen on input line 456.
-LaTeX Info: Redefining \circledR on input line 458.
-LaTeX Info: Redefining \checkmark on input line 460.
-LaTeX Info: Redefining \maltese on input line 461.
-LaTeX Info: Redefining \vdots on input line 1518.
-LaTeX Info: Redefining \cdots on input line 1522.
-LaTeX Info: Redefining \not on input line 2144.
-) ("Main Book.aux")
-\openout1 = `"Main Book.aux"'.
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54 \documentclass[a4paper, 11pt]{
+                                   book} % A4 paper size and default 11pt fo...
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 50.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 50.
+The document may only declare one class.
 
-(D:\ProgramFiles\MiKTex\tex\latex\base\ts1cmr.fd
-File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for LS1/stix/m/n on input line 50.
-LaTeX Font Info:    Try loading font information for LS1+stix on input line 50.
+(D:\ProgramFiles\MiKTex\tex\latex\base\fontenc.sty
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
 
+(D:\ProgramFiles\MiKTex\tex\latex\base\t1enc.def
+File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+)) (article_4.aux)
+\openout1 = `article_4.aux'.
 
-(D:\ProgramFiles\MiKTex\tex\latex\stix\ls1stix.fd
-File: ls1stix.fd 2015/04/17 v1.1.2-latex STIX LS1 font definitions
-)
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for LS2/stix/m/n on input line 50.
-LaTeX Font Info:    Try loading font information for LS2+stix on input line 50.
-
-
-(D:\ProgramFiles\MiKTex\tex\latex\stix\ls2stix.fd
-File: ls2stix.fd 2015/04/17 v1.1.2-latex STIX LS2 font definitions
-)
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Try loading font information for T1+stix on input line 50.
-
-(D:\ProgramFiles\MiKTex\tex\latex\stix\t1stix.fd
-File: t1stix.fd 2015/04/17 v1.1.2-latex STIX T1 font definitions
-)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
 \AtBeginShipoutBox=\box32
-Package hyperref Info: Link coloring ON on input line 50.
+Package hyperref Info: Link coloring ON on input line 75.
 
 (D:\ProgramFiles\MiKTex\tex\latex\hyperref\nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1326,31 +1058,31 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (D:\ProgramFiles\MiKTex\tex\generic\oberdiek\gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count129
+\c@section@level=\count124
 LaTeX Info: Redefining \Ref on input line 515.
 )
-LaTeX Info: Redefining \ref on input line 50.
-LaTeX Info: Redefining \pageref on input line 50.
-LaTeX Info: Redefining \nameref on input line 50.
+LaTeX Info: Redefining \ref on input line 75.
+LaTeX Info: Redefining \pageref on input line 75.
+LaTeX Info: Redefining \nameref on input line 75.
 
-("Main Book.out") ("Main Book.out")
+(article_4.out) (article_4.out)
 \@outlinefile=\write3
-\openout3 = `"Main Book.out"'.
+\openout3 = `article_4.out'.
 
-LaTeX Info: Redefining \Ref on input line 50.
+LaTeX Info: Redefining \Ref on input line 75.
 
 (D:\ProgramFiles\MiKTex\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count130
-\scratchdimen=\dimen146
+\scratchcounter=\count125
+\scratchdimen=\dimen145
 \scratchbox=\box33
-\nofMPsegments=\count131
-\nofMParguments=\count132
+\nofMPsegments=\count126
+\nofMParguments=\count127
 \everyMPshowfont=\toks31
-\MPscratchCnt=\count133
-\MPscratchDim=\dimen147
-\MPnumerator=\count134
-\makeMPintoPDFobject=\count135
+\MPscratchCnt=\count128
+\MPscratchDim=\dimen146
+\MPnumerator=\count129
+\makeMPintoPDFobject=\count130
 \everyMPtoPDFconversion=\toks32
 ) (D:\ProgramFiles\MiKTex\tex\latex\oberdiek\epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1365,7 +1097,7 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-LaTeX Info: Redefining \microtypecontext on input line 50.
+LaTeX Info: Redefining \microtypecontext on input line 75.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1373,15 +1105,55 @@ Package microtype Info: No font expansion.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
+
+(D:\ProgramFiles\MiKTex\tex\latex\microtype\mt-ppl.cfg
+File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <24.88> not available
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 99.
+Package microtype Info: Character `029' is missing
+(microtype)             in font `T1/pplj/m/sc/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+
+
+LaTeX Warning: File `Logos/compsci-cda-curcuit-sticker.png' not found on input 
+line 99.
+
+
+! Package pdftex.def Error: File `Logos/compsci-cda-curcuit-sticker.png' not fo
+und: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.99 		}
+        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+LaTeX Font Info:    Try loading font information for T1+fvm on input line 99.
+(D:\ProgramFiles\MiKTex\tex\latex\bera\t1fvm.fd
+File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
+)
+LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
+(Font)              scaled to size 8.50006pt on input line 99.
 Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `stix' (encoding: T1).
+(microtype)             `fvm' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: subfig package v1.3 is loaded.
-Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Try loading font information for T1+iwona on input line 67.
 
+Underfull \hbox (badness 10000) in paragraph at lines 99--99
+
+ []
+
+[1
+
+{C:/Users/samfr/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+LaTeX Font Info:    Try loading font information for T1+iwona on input line 120
+.
 
 (D:\ProgramFiles\MiKTex\tex\latex\iwona\t1iwona.fd
 File: t1iwona.fd 2008/07/22 v0.995 font definition file for T1/iwona (MW)
@@ -1391,24 +1163,39 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/iwona/bx/n' in size <10> not available
-(Font)              Font shape `T1/iwona/b/n' tried instead on input line 67.
+(Font)              Font shape `T1/iwona/b/n' tried instead on input line 120.
 LaTeX Font Info:    Font shape `T1/iwona/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/iwona/b/n' tried instead on input line 67.
-LaTeX Font Info:    Try loading font information for LS1+stixscr on input line 
-67.
+(Font)              Font shape `T1/iwona/b/n' tried instead on input line 120.
+LaTeX Font Info:    Try loading font information for OT1+pplj on input line 120
+.
 
-(D:\ProgramFiles\MiKTex\tex\latex\stix\ls1stixscr.fd
-File: ls1stixscr.fd 2015/04/17 v1.1.2-latex STIX script LS1 font definitions
+(D:\ProgramFiles\MiKTex\tex\latex\psnfss\ot1pplj.fd
+File: ot1pplj.fd 2004/09/06 font definitions for OT1/pplj.
 )
-LaTeX Font Info:    Try loading font information for LS2+stixex on input line 6
-7.
+LaTeX Font Info:    Try loading font information for U+zeur on input line 120.
 
-(D:\ProgramFiles\MiKTex\tex\latex\stix\ls2stixex.fd
-File: ls2stixex.fd 2015/04/17 v1.1.2-latex STIX extentions LS2 font definitions
-
+(D:\ProgramFiles\MiKTex\tex\latex\eulervm\uzeur.fd
+File: uzeur.fd 2005/01/11 v4.0 (WaS)
 )
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 67.
+(D:\ProgramFiles\MiKTex\tex\latex\microtype\mt-eur.cfg
+File: mt-eur.cfg 2006/07/31 v1.1 microtype config. file: AMS Euler Roman (RS)
+)
+LaTeX Font Info:    Try loading font information for U+zeus on input line 120.
 
+(D:\ProgramFiles\MiKTex\tex\latex\eulervm\uzeus.fd
+File: uzeus.fd 2005/01/11 v4.0 (WaS)
+)
+(D:\ProgramFiles\MiKTex\tex\latex\microtype\mt-eus.cfg
+File: mt-eus.cfg 2006/07/28 v1.2 microtype config. file: AMS Euler Script (RS)
+)
+LaTeX Font Info:    Try loading font information for U+zeuex on input line 120.
+
+
+(D:\ProgramFiles\MiKTex\tex\latex\eulervm\uzeuex.fd
+File: uzeuex.fd 2005/01/11 v4.0 (WaS)
+)
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 120
+.
 
 (D:\ProgramFiles\MiKTex\tex\latex\psnfss\ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
@@ -1424,160 +1211,188 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 (D:\ProgramFiles\MiKTex\tex\latex\microtype\mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Try loading font information for LS1+stixfrak on input line
- 67.
-
-(D:\ProgramFiles\MiKTex\tex\latex\stix\ls1stixfrak.fd
-File: ls1stixfrak.fd 2015/04/17 v1.1.2-latex STIX fraktur LS1 font definitions
-)
-LaTeX Font Info:    Try loading font information for LS1+stixbb on input line 6
-7.
-
-(D:\ProgramFiles\MiKTex\tex\latex\stix\ls1stixbb.fd
-File: ls1stixbb.fd 2015/04/17 v1.1.2-latex STIX blackboard LS1 font definitions
-
-)
-LaTeX Font Info:    Try loading font information for LS2+stixcal on input line 
-67.
-
-(D:\ProgramFiles\MiKTex\tex\latex\stix\ls2stixcal.fd
-File: ls2stixcal.fd 2015/04/17 v1.1.2-latex STIX calligraphic LS2 font definiti
-ons
-)
-LaTeX Font Info:    Try loading font information for LS1+stixsf on input line 6
-7.
-
-(D:\ProgramFiles\MiKTex\tex\latex\stix\ls1stixsf.fd
-File: ls1stixsf.fd 2015/04/17 v1.1.2-latex STIX sans-serif LS1 font definitions
-
-)
-LaTeX Font Info:    Try loading font information for LS2+stixtt on input line 6
-7.
-
-(D:\ProgramFiles\MiKTex\tex\latex\stix\ls2stixtt.fd
-File: ls2stixtt.fd 2015/04/17 v1.1.2-latex STIX typewriter LS2 font definitions
-
-)
-Package tocbasic Info: character protrusion at toc deactivated on input line 70
-.
- ("Main Book.toc"
-LaTeX Font Info:    Font shape `T1/stix/bx/n' in size <10> not available
-(Font)              Font shape `T1/stix/b/n' tried instead on input line 1.
+Package tocbasic Info: character protrusion at toc deactivated on input line 12
+3.
+ (article_4.toc
+Package microtype Info: Character `029' is missing
+(microtype)             in font `T1/pplj/m/sc/10'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <10> not available
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 1.
 )
 \tf@toc=\write4
-\openout4 = `"Main Book.toc"'.
+\openout4 = `article_4.toc'.
+
+Package tocbasic Info: character protrusion at lof deactivated on input line 12
+5.
+
+(article_4.lof)
+\tf@lof=\write5
+\openout5 = `article_4.lof'.
+
+Package tocbasic Info: character protrusion at lot deactivated on input line 12
+7.
+ (article_4.lot)
+\tf@lot=\write6
+\openout6 = `article_4.lot'.
 
 
 
-Package hyperref Warning: Ignoring empty anchor on input line 77.
-
-[1
+Package hyperref Warning: Ignoring empty anchor on input line 141.
 
 
-{C:/Users/samfr/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+Package hyperref Warning: Ignoring empty anchor on input line 143.
+
+[2
+
+]
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/iwona/m/sc/14.4'.
 (microtype)             Ignoring protrusion settings for this character.
 
 
-LaTeX Warning: Citation `Figueredo:2009dg' on page 2 undefined on input line 89
-.
+LaTeX Warning: Citation `Figueredo:2009dg' on page 3 undefined on input line 15
+5.
 
 LaTeX Font Info:    Font shape `T1/iwona/bx/sc' in size <10> not available
-(Font)              Font shape `T1/iwona/b/sc' tried instead on input line 104.
+(Font)              Font shape `T1/iwona/b/sc' tried instead on input line 177.
 
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/iwona/b/sc/10'.
 (microtype)             Ignoring protrusion settings for this character.
-[2] [3] [4]
-<Figures/GalleriaStampe.jpg, id=138, 414.348pt x 409.53pt>
+[3]
+Overfull \hbox (4.18242pt too wide) in paragraph at lines 183--183
+[] []\T1/iwona/bx/sc/10/80ls dif-fer-ent para-graph de-scrip-tion[] \T1/pplj/m/
+n/10 Pel-len-tesque habi-tant morbi tris-tique senec-
+ []
+
+<Figures/GalleriaStampe.jpg, id=72, 414.348pt x 409.53pt>
 File: Figures/GalleriaStampe.jpg Graphic file (type jpg)
 <use Figures/GalleriaStampe.jpg>
-Package pdftex.def Info: Figures/GalleriaStampe.jpg  used on input line 216.
+Package pdftex.def Info: Figures/GalleriaStampe.jpg  used on input line 224.
 (pdftex.def)             Requested size: 185.0pt x 182.84953pt.
 LaTeX Font Info:    Font shape `T1/iwona/bx/n' in size <9> not available
-(Font)              Font shape `T1/iwona/b/n' tried instead on input line 217.
-LaTeX Font Info:    Try loading font information for T1+fvm on input line 217.
- (D:\ProgramFiles\MiKTex\tex\latex\bera\t1fvm.fd
-File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
-)
+(Font)              Font shape `T1/iwona/b/n' tried instead on input line 225.
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 7.65005pt on input line 217.
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `fvm' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
- [5 <./Figures/GalleriaStampe.jpg>]
+(Font)              scaled to size 7.65005pt on input line 225.
+[4]
 LaTeX Font Info:    Font shape `T1/iwona/bx/it' in size <10> not available
-(Font)              Font shape `T1/iwona/b/it' tried instead on input line 229.
+(Font)              Font shape `T1/iwona/b/it' tried instead on input line 237.
 
- [6]
-<Figures/Lorem.jpg, id=158, 240.9pt x 180.675pt>
+ [5 <./Figures/GalleriaStampe.jpg>]
+
+Package caption Warning: \label without proper reference on input line 288.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:ipsum' on page 6 undefined on input line 281.
+
+[6]
+! Undefined control sequence.
+l.287 \subfloat
+               [A city market.]{\includegraphics[width=.45\columnwidth]{Lore...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<Figures/Lorem.jpg, id=101, 240.9pt x 180.675pt>
 File: Figures/Lorem.jpg Graphic file (type jpg)
 <use Figures/Lorem.jpg>
-Package pdftex.def Info: Figures/Lorem.jpg  used on input line 279.
+Package pdftex.def Info: Figures/Lorem.jpg  used on input line 287.
 (pdftex.def)             Requested size: 166.49887pt x 124.87814pt.
-LaTeX Font Info:    Font shape `T1/iwona/bx/n' in size <8> not available
-(Font)              Font shape `T1/iwona/b/n' tried instead on input line 279.
-<Figures/Ipsum.jpg, id=159, 240.9pt x 180.675pt>
+! Undefined control sequence.
+l.288 \subfloat
+               [Forest landscape.]{\includegraphics[width=.45\columnwidth]{I...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<Figures/Ipsum.jpg, id=102, 240.9pt x 180.675pt>
 File: Figures/Ipsum.jpg Graphic file (type jpg)
 <use Figures/Ipsum.jpg>
-Package pdftex.def Info: Figures/Ipsum.jpg  used on input line 280.
+Package pdftex.def Info: Figures/Ipsum.jpg  used on input line 288.
 (pdftex.def)             Requested size: 166.49887pt x 124.87814pt.
-<Figures/Dolor.jpg, id=160, 240.9pt x 180.675pt>
+! Undefined control sequence.
+<recently read> \subfloat 
+                          
+l.289 \subfloat
+               [Mountain landscape.]{\includegraphics[width=.45\columnwidth]...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<Figures/Dolor.jpg, id=103, 240.9pt x 180.675pt>
 File: Figures/Dolor.jpg Graphic file (type jpg)
 <use Figures/Dolor.jpg>
-Package pdftex.def Info: Figures/Dolor.jpg  used on input line 281.
+Package pdftex.def Info: Figures/Dolor.jpg  used on input line 289.
 (pdftex.def)             Requested size: 166.49887pt x 124.87814pt.
-<Figures/Sit.jpg, id=161, 240.9pt x 180.675pt>
+! Undefined control sequence.
+l.290 \subfloat
+               [A tile decoration.]{\includegraphics[width=.45\columnwidth]{...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<Figures/Sit.jpg, id=104, 240.9pt x 180.675pt>
 File: Figures/Sit.jpg Graphic file (type jpg)
 <use Figures/Sit.jpg>
-Package pdftex.def Info: Figures/Sit.jpg  used on input line 282.
+Package pdftex.def Info: Figures/Sit.jpg  used on input line 290.
 (pdftex.def)             Requested size: 166.49887pt x 124.87814pt.
- [7] [8 <./Figures/Lorem.jpg> <./Figures/Ipsum.jpg> <./Figures/Dolor.jpg> <./Fi
-gures/Sit.jpg>] ("Main Book.bbl"
+(article_4.bbl
 
 LaTeX Warning: Empty `thebibliography' environment or \BreakBibliography
                before end of `thebibliography' environment on input line 3.
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 360.
- [9]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 360.
- ("Main Book.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 360.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 360.
-Package rerunfilecheck Info: File `"Main Book".out' has not changed.
-(rerunfilecheck)             Checksum: BA31B2DB5268470848E72488692E871C;1301.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 307.
+ [7] [8 <./Figures/Lorem.jpg> <./Figures/Ipsum.jpg> <./Figures/Dolor.jpg> <./Fi
+gures/Sit.jpg>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 307.
+ (article_4.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 307.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 307.
+Package rerunfilecheck Info: File `article_4.out' has not changed.
+(rerunfilecheck)             Checksum: 04C63F1C8FA5B76ACC0A68D756570284;424.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 360.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 307.
  ) 
 Here is how much of TeX's memory you used:
- 17980 strings out of 493305
- 312713 string characters out of 3141062
- 610389 words of memory out of 3000000
- 21079 multiletter control sequences out of 15000+200000
- 204169 words of font info for 274 fonts, out of 3000000 for 9000
+ 15629 strings out of 493305
+ 278791 string characters out of 3141062
+ 598364 words of memory out of 3000000
+ 18778 multiletter control sequences out of 15000+200000
+ 147808 words of font info for 212 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
- 66i,23n,91p,9092b,636s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 66i,22n,91p,9090b,624s stack positions out of 5000i,500n,10000p,200000b,50000s
 {D:/ProgramFiles/MiKTex/fonts/enc/dvips/iwona/ec-iwona.enc}{D:/ProgramFiles/M
 iKTex/fonts/enc/dvips/base/8r.enc}{D:/ProgramFiles/MiKTex/fonts/enc/dvips/iwona
-/ec-iwona-sc.enc}{D:/ProgramFiles/MiKTex/fonts/enc/dvips/stix/stix-t1.enc}<D:/P
-rogramFiles/MiKTex/fonts/type1/public/stix/STIXGeneral-Bold.pfb><D:/ProgramFile
-s/MiKTex/fonts/type1/public/stix/STIXGeneral-Italic.pfb><D:/ProgramFiles/MiKTex
-/fonts/type1/public/stix/STIXGeneral-Regular.pfb><D:/ProgramFiles/MiKTex/fonts/
-type1/bera/fvmr8a.pfb><D:/ProgramFiles/MiKTex/fonts/type1/nowacki/iwona/iwonab.
-pfb><D:/ProgramFiles/MiKTex/fonts/type1/nowacki/iwona/iwonabi.pfb><D:/ProgramFi
-les/MiKTex/fonts/type1/nowacki/iwona/iwonar.pfb><D:/ProgramFiles/MiKTex/fonts/t
-ype1/public/stix/stix-mathcal.pfb><D:/ProgramFiles/MiKTex/fonts/type1/public/st
-ix/stix-mathex.pfb><D:/ProgramFiles/MiKTex/fonts/type1/public/stix/stix-mathit.
-pfb><D:/ProgramFiles/MiKTex/fonts/type1/public/stix/stix-mathrm.pfb>
-Output written on "Main Book.pdf" (9 pages, 484773 bytes).
+/ec-iwona-sc.enc}<D:/ProgramFiles/MiKTex/fonts/type1/public/amsfonts/cm/cmsy10.
+pfb><D:/ProgramFiles/MiKTex/fonts/type1/public/amsfonts/euler/euex10.pfb><D:/Pr
+ogramFiles/MiKTex/fonts/type1/public/amsfonts/euler/eufm10.pfb><D:/ProgramFiles
+/MiKTex/fonts/type1/public/amsfonts/euler/eufm7.pfb><D:/ProgramFiles/MiKTex/fon
+ts/type1/public/amsfonts/euler/eurm10.pfb><D:/ProgramFiles/MiKTex/fonts/type1/p
+ublic/amsfonts/euler/eurm7.pfb><D:/ProgramFiles/MiKTex/fonts/type1/public/fpl/f
+plbj8a.pfb><D:/ProgramFiles/MiKTex/fonts/type1/public/fpl/fplrc8a.pfb><D:/Progr
+amFiles/MiKTex/fonts/type1/bera/fvmr8a.pfb><D:/ProgramFiles/MiKTex/fonts/type1/
+nowacki/iwona/iwonab.pfb><D:/ProgramFiles/MiKTex/fonts/type1/nowacki/iwona/iwon
+abi.pfb><D:/ProgramFiles/MiKTex/fonts/type1/nowacki/iwona/iwonar.pfb><D:/Progra
+mFiles/MiKTex/fonts/type1/urw/palatino/uplb8a.pfb><D:/ProgramFiles/MiKTex/fonts
+/type1/urw/palatino/uplr8a.pfb><D:/ProgramFiles/MiKTex/fonts/type1/urw/palatino
+/uplri8a.pfb>
+Output written on article_4.pdf (8 pages, 417659 bytes).
 PDF statistics:
- 255 PDF objects out of 1000 (max. 8388607)
- 63 named destinations out of 1000 (max. 500000)
- 59066 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 174 PDF objects out of 1000 (max. 8388607)
+ 27 named destinations out of 1000 (max. 500000)
+ 46162 words of extra memory for PDF output out of 51595 (max. 10000000)
 
