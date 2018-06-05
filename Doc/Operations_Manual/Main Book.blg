@@ -1,7 +1,7 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: Main Book.aux
 The style file: unsrt.bst
 I couldn't open database file sample.bib.bib
----line 76 of file Main Book.aux
+---line 78 of file Main Book.aux
  : \bibdata{sample.bib
  :                    }
 I'm skipping whatever remains of this command
