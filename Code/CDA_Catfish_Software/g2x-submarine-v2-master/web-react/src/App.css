@@ -1,0 +1,34 @@
+body {
+	background-color: rgb(54,54,54);
+}
+
+.container {
+	display: flex;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.left {
+	flex: 1;
+}
+
+.video {
+	width: 1296px;
+	border: 1px solid rgb(200,200,200);
+}
+
+.right {
+	float: right;
+	flex: 1;
+}
+
+.clock, .lineChart, .compass, .submarine, .thrusters {
+	display: block;
+	margin: 5px 5px 0px 5px;
+	padding: 5px;
+	background-color: rgba(255, 255, 255, 0.2);
+}

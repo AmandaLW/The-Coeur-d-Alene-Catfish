@@ -1,0 +1,79 @@
+<html>
+<head>
+	{{> header.html}}
+	<script type="text/javascript" src="js/xhr.js"></script>
+	<script type="text/javascript" src="js/webgl.js"></script>
+	<script type="text/javascript">
+		var text;
+		var needle;
+
+		function init() {
+			text = document.getElementById("text");
+			needle = document.getElementById("needle");
+			
+			initGL();
+
+			refresh();
+		}
+
+		function refresh() {
+			xhr.get('/nav', update);
+		}
+
+		function update(err, data) {
+			text.innerText = JSON.stringify(data, null, 2);
+
+			if ("compass" in data) {
+				let compass = data.compass;
+
+				if ("angle" in compass) {
+					let angle = compass.angle
+
+					angle -= 90.0
+
+					if (angle < 0.0) {
+						angle += 360.0
+					}
+
+					needle.setAttribute("transform", "rotate(" + angle + ")");
+				}
+			}
+
+			if ("status" in data === false || data.status != 500) {
+				setTimeout(refresh, 1000);
+			}
+		}
+	</script>
+	<script id="2d-vertex-shader" type="text/vertex-shader">
+		attribute vec4 a_position;
+		
+		void main() {
+			gl_Position = a_position;
+		}
+	</script>
+	<script id="2d-fragment-shader" type="text/fragment-shader">
+		precision mediump float;
+		 
+		void main() {
+			gl_FragColor = vec4(1, 0, 0.5, 1);
+		}
+	</script>
+</head>
+<body onload="init()">
+	<div class="container">
+		<img class="mjpeg" src="http://192.168.0.1:8080/stream/video.mjpeg" width="1102" height="830"/>
+		<div class="overlay">
+			<pre id="text"></pre>
+			<svg xmlns="http://www.w3.org/2000/svg" id="compass" width="60" height="60" viewbox="0 0 60 60">
+				<g transform="translate(30,30)">
+					<circle r="30" fill="green" />
+					<g id="needle" transform="rotate(0)">
+						<line x2="30" stroke="red" stroke-width="2" />
+					</g>
+				</g>
+			</svg>
+			<canvas id="vessel" width="200" height="200"></canvas>
+		</div>
+	</div>
+</body>
+</html>
