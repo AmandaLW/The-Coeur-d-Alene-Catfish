@@ -44,7 +44,7 @@ elif platform.system() == "Windows":
 
 # This is the IP address and port of the server we will connect to. We send
 # controller values to that machine over the network.
-host = "192.168.0.1"
+host = "192.168.2.1"
 port = 9999
 
 # process command line args

@@ -13,7 +13,9 @@ JL_V = 1  # left joystick vertical axis
 JR_H = 2  # right joystick horizontal axis
 JR_V = 3  # right joystick vertical axis
 
-HOST = "192.168.0.1"
+# This is the IP address and port of the server we will connect to. We send
+# values to that machine over the network.
+HOST = "192.168.2.1"
 PORT = 9999
 
 TICK = 1.0 / 60.0
