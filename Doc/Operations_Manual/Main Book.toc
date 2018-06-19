@@ -1,28 +1,34 @@
 \contentsline {section}{\numberline {1}{Introduction}}{2}{section.1}
 \contentsline {section}{\numberline {2}{Basic Operations}}{3}{section.2}
 \contentsline {subsection}{\numberline {2.1}{Components}}{3}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2}{Power on/off}}{5}{subsection.2.2}
-\contentsline {subsection}{\numberline {2.3}{Charging Battery}}{5}{subsection.2.3}
-\contentsline {paragraph}{{The Charger}}{5}{subsection.2.3}
-\contentsline {paragraph}{{Submarine Battery Charge}}{5}{subsection.2.3}
-\contentsline {paragraph}{{Handling Gear Charge}}{5}{subsection.2.3}
-\contentsline {subsection}{\numberline {2.4}{Deployment}}{5}{subsection.2.4}
-\contentsline {subsection}{\numberline {2.5}{Checks}}{5}{subsection.2.5}
-\contentsline {paragraph}{{Handling Gear - Preoperational Checks}}{6}{subsection.2.5}
-\contentsline {paragraph}{{Submarine - Preoperational Checks}}{6}{subsection.2.5}
-\contentsline {paragraph}{{Submarine - Postoperational Checks}}{7}{subsection.2.5}
+\contentsline {subsection}{\numberline {2.2}{Schematics}}{5}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}{Wiring Pins List}}{5}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}{Power on/off}}{6}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}{Charging Battery}}{6}{subsection.2.5}
+\contentsline {paragraph}{{The Charger}}{6}{subsection.2.5}
+\contentsline {paragraph}{{Submarine Battery Charge}}{6}{subsection.2.5}
+\contentsline {paragraph}{{Handling Gear Charge}}{6}{subsection.2.5}
+\contentsline {subsection}{\numberline {2.6}{Deployment}}{6}{subsection.2.6}
+\contentsline {subsection}{\numberline {2.7}{Checks}}{6}{subsection.2.7}
+\contentsline {paragraph}{{Handling Gear - Preoperational Checks}}{6}{subsection.2.7}
+\contentsline {paragraph}{{Submarine - Preoperational Checks}}{7}{subsection.2.7}
+\contentsline {paragraph}{{Software Checks}}{7}{subsection.2.7}
+\contentsline {paragraph}{{Submarine - Postoperational Checks}}{8}{subsection.2.7}
+\contentsline {subsection}{\numberline {2.8}{Getting Inside the Catfish}}{8}{subsection.2.8}
+\contentsline {paragraph}{{Removing the Hull}}{8}{subsection.2.8}
+\contentsline {paragraph}{{Reattaching the Hull}}{8}{subsection.2.8}
 \contentsline {section}{\numberline {3}{Using Software}}{8}{section.3}
-\contentsline {subsection}{\numberline {3.1}{Connecting to the Submarine}}{8}{subsection.3.1}
-\contentsline {paragraph}{{Ethernet Connection}}{8}{subsection.3.1}
-\contentsline {paragraph}{{Wireless Connection}}{8}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.1}{Connecting to the Submarine}}{9}{subsection.3.1}
+\contentsline {paragraph}{{Ethernet Connection}}{9}{subsection.3.1}
+\contentsline {paragraph}{{Wireless Connection}}{9}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}{Moving the Submarine}}{9}{subsection.3.2}
 \contentsline {subsection}{\numberline {3.3}{Taking Pics/Video}}{9}{subsection.3.3}
 \contentsline {paragraph}{{Where to Save}}{9}{subsection.3.3}
 \contentsline {paragraph}{{Streaming}}{9}{subsection.3.3}
 \contentsline {section}{\numberline {4}{System Configuration}}{9}{section.4}
 \contentsline {subsection}{\numberline {4.1}{Configuring 3D map?}}{9}{subsection.4.1}
-\contentsline {subsubsection}{\numberline {4.1.1}{Testing with the Turtle}}{10}{subsubsection.4.1.1}
-\contentsline {subsubsection}{\numberline {4.1.2}{Mapping Underwater}}{10}{subsubsection.4.1.2}
-\contentsline {subsection}{\numberline {4.2}{Changing the Raspberry Pi IP's}}{10}{subsection.4.2}
-\contentsline {section}{\numberline {5}{Consumer Info}}{11}{section.5}
-\contentsline {subsection}{\numberline {5.1}{Troubleshooting}}{11}{subsection.5.1}
+\contentsline {subsubsection}{\numberline {4.1.1}{Testing with the Turtle}}{9}{subsubsection.4.1.1}
+\contentsline {subsubsection}{\numberline {4.1.2}{Mapping Underwater}}{9}{subsubsection.4.1.2}
+\contentsline {subsection}{\numberline {4.2}{Changing the Raspberry Pi IP's}}{9}{subsection.4.2}
+\contentsline {section}{\numberline {5}{Consumer Info}}{9}{section.5}
+\contentsline {subsection}{\numberline {5.1}{Troubleshooting}}{9}{subsection.5.1}

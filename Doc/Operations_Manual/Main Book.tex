@@ -93,12 +93,17 @@ Northern Idaho is one of the regions in the western United States that has seen 
 
 This project focuses on creating and/or beginning development of an autonomous submarine that will collect water quality data in deep-water lakes and reservoirs. This submarine, dubbed the “Idaho Catfish”, will be able to perform such underwater surveys by continuously sampling a variety of water quality variables such as oxygen, pH, temperature, etc. The end result will be that the Catfish will be fully autonomous, but tethered instructions will also be provided.
 
+\subsection*{The Submarine}
+The submarine itself has been provided by Gizmo Coeur d'Alene and is a small sized submarine and handling gear set. The Catfish has been to the bottom of Lake Pend Oreille and is confirmed to be airtight and functional at 1200 feet under the water. It is speculated that it is good to go under up to 1600 feet but this is untested.
+
 \subsection*{Term Definitions?}
 
+\textit{Ballast} - heavy material, such as gravel, sand, iron, or lead, placed low in a vessel to improve its stability. \\ \\
+\textit{Handling Gear} - The set of gear that aids in deploying the submarine. Contains the tether, a winch, battery, communications module, and various storage. See Diagram \\ \\
 \textit{Idaho Catfish }  – The submarine nickname. \\ \\
+\textit{O-Ring} - a gasket in the form of a ring with a circular cross section, typically made of pliable material, used to seal connections in pipes, tubes, etc.
 \textit{Tethered } – The wires that connect the submarine to the surface, allowing for direct control and easier tracking of the submarine. Currently the submarine only runs tethered, it is not fully autonomous. \\ \\
 \textit{ V } - Stands for voltage, a way of measuring a charge in batteries. \\ \\
-\textit{Handling Gear} - The set of gear that aids in deploying the submarine. Contains the tether, a winch, battery, communications module, and various storage. See Diagram \\ \\
 
 \newpage
  
@@ -119,17 +124,95 @@ This project focuses on creating and/or beginning development of an autonomous s
 	\caption[]{An inside view of the submarine} % The text in the square bracket is the caption for the list of figures while the text in the curly brackets is the figure caption 
 \end{figure}
 \begin{figure}[H]
-	\centering 
-	\includegraphics[width=0.9\columnwidth]{Figures/Component_Diagrams/handling_gear.jpg}
-	\caption[]{An overview of the handling gear} % The text in the square bracket is the caption for the list of figures while the text in the curly brackets is the figure caption 
+\centering 
+\includegraphics[width=0.9\columnwidth]{Figures/Component_Diagrams/navigation_board.jpg}
+\caption[]{An inside view of the submarines' camera main module} % The text in the square bracket is the caption for the list of figures while the text in the curly brackets is the figure caption 
 \end{figure}
 \begin{figure}[H]
 	\centering 
-	\includegraphics[width=0.9\columnwidth]{Figures/Component_Diagrams/navigation_board.jpg}
-	\caption[]{An inside view of the communications module} % The text in the square bracket is the caption for the list of figures while the text in the curly brackets is the figure caption 
+	\includegraphics[width=1\columnwidth]{Figures/Component_Diagrams/handling_gear.jpg}
+	\caption[]{An overview of the handling gear} % The text in the square bracket is the caption for the list of figures while the text in the curly brackets is the figure caption 
 \end{figure}
+
 \clearpage
 \newpage
+
+%------------------------------------------------
+
+\subsection{Schematics}
+
+Schematic Pictures when Adrian and I make them go here.
+%------------------------------------------------
+
+\subsection{Wiring Pins List}
+
+The following is a list of the pins used per area. All wires are already numbered inside the submarines' main camera module. 
+
+\begin{itemize}[noitemsep] % [noitemsep] removes whitespace between the items for a compact look
+	\item Communications Module (12 Pins)
+	\begin{itemize}[noitemsep]
+		\item \#1 Ethernet Orange/White
+		\item \#2 Ethernet Orange
+		\item \#3 Ethernet Green/White
+		\item \#4 Ethernet Green
+		\item \#5 Ground
+		\item \#6 Ground
+		\item \#7 +12 VDC
+		\item \#8-12 Unused
+	\end{itemize}
+	\item Main Module Tether (12 Pins)
+		\begin{itemize}[noitemsep]
+		\item \#1 Ethernet Orange/White
+		\item \#2 Ethernet Orange
+		\item \#3 Ethernet Green/White
+		\item \#4 Ethernet Green
+		\item \#5 Ground
+		\item \#6 Ground
+		\item \#7 +12 VDC
+		\item \#8-12 Unused
+	\end{itemize}
+	\item Main Module Auxiliary (16 Pins)
+		\begin{itemize}[noitemsep]
+		\item \#1 Lights +12 VDC
+		\item \#2 Unused +12 VDC
+		\item \#3 Lights PWM
+		\item \#4-16 Unused
+	\end{itemize}
+	\item Main Module Thrusters (16 Pins)
+		\begin{itemize}[noitemsep]
+		\item \#1-3 Left Horizontal Thruster
+		\item \#4-6 Left Vertical Thruster
+		\item \#7-9 Tail Vertical Thruster
+		\item \#10-12 Right Vertical Thruster
+		\item \#13-15 Right Horizontal Thruster
+		\item \#16 Unused
+	\end{itemize}
+	\item Main Module Power (8 Pins)
+		\begin{itemize}[noitemsep]
+		\item \#1-4 Thruster Power
+		\item \#5 CPU Power
+		\item \#6-8 Thruster Power
+
+	\end{itemize}
+	\item Commutator (8 Contacts)
+		\begin{itemize}[noitemsep]
+		\item \#1-2 +9 VDC
+		\item \#3-4 Ground
+		\item \#5 Ethernet Green
+		\item \#6 Ethernet Green/White
+		\item \#7 Ethernet Orange
+		\item \#8 Ethernet Orange/White
+	\end{itemize}
+	\item Onboard Power List
+		\begin{itemize}[noitemsep]
+		\item (3) 12V Lead Acid Batteries
+		\item (2) +12 VDC to Thruster Power Switch
+		\item (1) +12 VDC to CPU Power Switch
+		\item (2) Ground to Frame
+	\end{itemize}
+	
+\end{itemize}
+
 %------------------------------------------------
 
 \subsection{Power on/off}
@@ -160,7 +243,6 @@ When charging the handling gear, it functions in much the same way as the submar
 
 TO BE FILLED IN WITH ADRIAN'S ASSISTANCE, DUMMY TEXT FOLLOWS
 
-\lipsum[6]
 
 %------------------------------------------------
 
@@ -198,19 +280,34 @@ Further descriptions of the aforementioned checks are as follows:
 	\item Mast attachment bolt torque checked
 \end{itemize}
 
-Further descriptions of the aforementioned checks are as follows:
+\paragraph{Software Checks} Prior to deployment of the submarine, the following software checks should be conducted:
+
+\begin{itemize}[noitemsep] % [noitemsep] removes whitespace between the items for a compact look
+	\item Ethernet cable connection to communications module box and host PC
+	\item Ping from host PC terminal
+	\item Open camera servers
+	\item SSH into the submarine main Raspberry Pi
+	\item Trusters check
+\end{itemize}
 
 \begin{description}
-	\item[Control Module Thread Torque] \lipsum[7] % Dummy text
-	\item[Vertical Thruster Mount Bolts] \lipsum[7] % Dummy text
-	\item[Thruster to Control Module Cables and Connectors] \lipsum[7] % Dummy text
-	\item[Light to Control Module Cables and Connectors] \lipsum[7] % Dummy text
-	\item[Syntatic Foam] \lipsum[7] % Dummy text
-	\item[Other Cables to Control Module?] \lipsum[7] % Dummy text
-	\item[Mast Attachment Bolt Torque] \lipsum[7] % Dummy text
+	\item[Pinging] 
+	This check is to make sure that packets are being passed back and forth and that communication is happening.
+	\item[Opening camera servers] 
+	The camera servers are as follows:
+	 
+	\begin{itemize}[noitemsep]
+		\item 192.168.2.1:8080/stream
+		\item 192.168.2.2:8080/stream
+	\end{itemize}
+
+	If pictures or recordings are wanted, a separate program is needed.
+	\item[Pi Login]
+	The IP address of the Raspberry Pi in the submarine main module is 192.168.2.1. If you desire to access the Communications module Raspberry Pi is 192.168.2.2.
+	\item[Trusters Check] When running python 3, file name thrusters\_client.py, output should give "connected to server". If testing thruster function, barely push forward on a controller analog. "Barely" is key because there is much less resistance in air than in water, so burning the thrusters is a risk.
 \end{description}
 
-\paragraph{Submarine - Postoperational Checks} \lipsum[7] % Dummy text
+\paragraph{Submarine - Postoperational Checks}
 
 \begin{itemize}[noitemsep] % [noitemsep] removes whitespace between the items for a compact look
 	\item Voltage check
@@ -220,15 +317,20 @@ Further descriptions of the aforementioned checks are as follows:
 	\item Final ballast system accessible
 \end{itemize}
 
-Further descriptions of the aforementioned checks are as follows:
+%------------------------------------------------
 
-\begin{description}
-	\item[Voltage check] \lipsum[7] % Dummy text
-	\item[Physical check] \lipsum[7] % Dummy text
-	\item[All shell bolts in-place and torque checked] \lipsum[7] % Dummy text
-	\item[Vehicle to Communication module cable connected] \lipsum[7] % Dummy text
-	\item[Final ballast system accessible] \lipsum[7] % Dummy text
-\end{description}
+\subsection{Getting Inside the Catfish}
+
+The Catfish itself is not watertight. It is divided into two halves, the upper and lower parts. The upper part of the submarine contains all the electronics, thrusters, and wires. The lower part of the submarine has the ballast and buoyancy materials. Water flows freely through all parts except the Main Module. The wires inside the Navigation Cable Box are waterproofed as well. If for any reason the inside of the Catfish needs to be accessed, please refer to the following sections: 
+
+\paragraph{Removing the Hull} This is fairly simple, all that is needed is to remove the screws. First, all the screws and bolts around the outside of the submarine EXCEPT the thruster screws/bolts will be removed. The reason for this is that it is easier to manage the thrusters falling off when they are the last to be removed. Next you remove the mast bolt and the mast itself. Once this is done, the top hull can be removed from the submarine. \\
+
+If you want to access the Main Module, then follow the next directions. First you want to unscrew the 2 6mm bolts under the face of the submarine camera. You also need to remove the bolts and washers from the long metal rods around the Main Module. Then you can slide the assembly off the insides of the module. Refer to diagram above in the Components section for an outline of the module.
+\paragraph{Reattaching the Hull} When ready to reattach the Main Module and hull, please follow these directions. \\
+
+First is the reassembly of the Main Module casing. Make sure all the ends are clean, both on the metal rods and the cylinder casing. Also make sure the O-Rings are clean. Grease both ends of the cylindrical casing with silicon grease, a little grease goes a long way. This process is just to make the O-Rings happier when under pressure. Then you will slide this assembly back onto the Main Module insides, tucking in the wires as you go and pushing it taut. While keeping pressure up put the washers and bolts back in place on the long metal rods, these should spin on easily. If they do not, then you are using the bolts for the outside of the hull and not the ones for the Main Module. Lastly, screw in the 2 6mm bolts back under the face of the submarine camera. This can be done by hand. In order to test the tightness of the Main Module, you can use sound. Merely pull the rods like a guitar string and make sure they all sound the same. The face of the camera should be flush with the submarine.\\
+
+To reattach the hull itself, just place the hull in place and screw in all the bolts except the thrusters and lights. After all the screws/bolts are in place, reattach the thrusters and then the lights which go under the thrusters. The lights can be pointed in different directions using the screw on the mount. After everything is tight, the mast can be reattached. The submarine is now reassembled.
 %------------------------------------------------
 
 %----------------------------------------------------------------------------------------
@@ -236,6 +338,19 @@ Further descriptions of the aforementioned checks are as follows:
 %----------------------------------------------------------------------------------------
 
 \section{Using Software}
+ connect ethernet cord and connect the tether.
+turn everything on
+OS SPECIFIC - change your ethernet specification range to 192.168.2.1 - 192.168.2.254
+the reason you change the range is so that you can access the pis, otherwise you cant connect. Make SURE the network range doesn't interfere with any nearby routers.
+
+After the initial setup, you can either VNC or SSH in.
+
+download the VNC viewer application if wanting to use it. Then you must open application and put in IP address; here you will enter the actual ip followed by a ":1". After that, it will ask you for the required login and password.
+
+Username: pi
+Pass: makerspace
+
+if you have a wireless network set up, you can set up a static ip. 192.168.0.207 for tp-link internet
 
 %------------------------------------------------
 
@@ -243,7 +358,7 @@ Further descriptions of the aforementioned checks are as follows:
 
 \paragraph{Ethernet Connection}
 \paragraph{Wireless Connection}
-\lipsum[6] % Dummy text
+
 
 
 %------------------------------------------------
@@ -251,7 +366,6 @@ Further descriptions of the aforementioned checks are as follows:
 
 \subsection{Moving the Submarine}
 
-\lipsum[6] % Dummy text
 
 
 %------------------------------------------------
@@ -260,11 +374,11 @@ Further descriptions of the aforementioned checks are as follows:
 
 \subsection{Taking Pics/Video}
 
-\lipsum[6] % Dummy text
 
-\paragraph{Where to Save} \lipsum[7] % Dummy text
 
-\paragraph{Streaming} \lipsum[8] % Dummy text
+\paragraph{Where to Save} 
+
+\paragraph{Streaming} 
 
 %------------------------------------------------
 
@@ -274,31 +388,22 @@ Further descriptions of the aforementioned checks are as follows:
 
 \section{System Configuration}
 
-\lipsum[10] % Dummy text
+
 
 %------------------------------------------------
 
 \subsection{Configuring 3D map?}
 
-\lipsum[11] % Dummy text
 
 \subsubsection{Testing with the Turtle}
 
-\lipsum[12] % Dummy text
-
-\lipsum[12] % Dummy text
 
 \subsubsection{Mapping Underwater}
-
-\lipsum[13] % Dummy text
 
 
 %------------------------------------------------
 
 \subsection{Changing the Raspberry Pi IP's}
-
-\lipsum[15-18] % Dummy text
-
 
 --------------------------------
 %	CONSUMER INFO
@@ -307,7 +412,6 @@ Further descriptions of the aforementioned checks are as follows:
 \section{Consumer Info}
 
 \subsection{Troubleshooting}
-\lipsum[5] % Dummy text
 
 
 \end{document}
