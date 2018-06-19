@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.5.17)  19 JUN 2018 13:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.5.17)  19 JUN 2018 15:31
 entering extended mode
 **"./Main Book.tex"
 ("Main Book.tex"
@@ -29,25 +29,37 @@ Package: tocbasic 2018/03/30 v3.25 KOMA-Script package (handling toc-files)
 Package tocbasic Info: omitting babel extension for `toc'
 (tocbasic)             because of feature `nobabel' available
 (tocbasic)             for `toc' on input line 134.
-Package scrartcl Info: You've used standard option `10pt'.
-(scrartcl)             This is correct!
-(scrartcl)             Internally I'm using `fontsize=10pt'.
-(scrartcl)             If you'd like to set the option with \KOMAoptions,
-(scrartcl)             you'd have to use `fontsize=10pt' there
-(scrartcl)             instead of `10pt', too.
+
+
+Package scrartcl Warning: You've used obsolete option `18pt'.
+(scrartcl)                Usage of this option indicates an old document
+(scrartcl)                and changes compatibility level using
+(scrartcl)                `fontsize=18pt,version=first,
+(scrartcl)                enabledeprecatedfontcommands' that may result
+(scrartcl)                in further warnings.
+(scrartcl)                If you don't want this, you should simply
+(scrartcl)                replace option `18pt' by `fontsize=18pt'.
+
+Class scrartcl Info: Switching compatibility level to `first'.
+
+Class scrartcl Warning: deprecated option `enabledeprecatedfontcommands'.
+(scrartcl)              Note, that this option was already depreacted when
+(scrartcl)              it has been defined. Support for old font commands
+(scrartcl)              has been removed from KOMA-Script more than one
+(scrartcl)              decade ago. It is not recommended to use them any
+(scrartcl)              longer. Therefore usage of this class option also
+(scrartcl)              is not recommended.
+
 Class scrartcl Info: You've used standard option `oneside'.
 (scrartcl)           This is correct!
 (scrartcl)           Internally I'm using `twoside=false'.
 (scrartcl)           If you'd like to set the option with \KOMAoptions,
 (scrartcl)           you'd have to use `twoside=false' there
 (scrartcl)           instead of `oneside', too.
-Class scrartcl Info: File `scrsize10pt.clo' used to setup font sizes on input l
-ine 2114.
 
-(D:\ProgramFiles\MiKTex\tex\latex\koma-script\scrsize10pt.clo
-File: scrsize10pt.clo 2018/03/30 v3.25 KOMA-Script font size class option (10pt
-)
-)
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <18> not available
+(Font)              size <17.28> substituted on input line 2114.
+
 (D:\ProgramFiles\MiKTex\tex\latex\koma-script\typearea.sty
 Package: typearea 2018/03/30 v3.25 KOMA-Script package (type area)
 \ta@bcor=\skip42
@@ -64,38 +76,33 @@ Package typearea Info: You've used standard option `oneside'.
 (typearea)             If you'd like to set the option with \KOMAoptions,
 (typearea)             you'd have to use `twoside=false' there
 (typearea)             instead of `oneside', too.
-
-
-Package typearea Warning: You've used obsolete option `BCOR5mm'.
-(typearea)                Usage of this option indicates an old document
-(typearea)                and changes compatibility level using
-(typearea)                `BCOR=5mm,version=first,
-(typearea)                enabledeprecatedfontcommands' that may result
-(typearea)                in further warnings.
-(typearea)                If you don't want this, you should simply
-(typearea)                replace option `BCOR5mm' by `BCOR=5mm'.
-
-Package typearea Info: Switching compatibility level to `first'.
 \ta@hblk=\skip43
 \ta@vblk=\skip44
 \ta@temp=\skip45
 \footheight=\skip46
+
+
+Package typearea Warning: DIV for 18.0pt and used papersize
+(typearea)                not defined!
+(typearea)                Using DIV=calc.
+
+DIV calculation for typearea with good linewidth.
 Package typearea Info: These are the values describing the layout:
-(typearea)             DIV  = 8
-(typearea)             BCOR = 14.22636pt
+(typearea)             DIV  = 35
+(typearea)             BCOR = 0.0pt
 (typearea)             \paperwidth      = 597.50793pt
-(typearea)              \textwidth      = 364.55101pt
-(typearea)              DIV departure   = -1%
-(typearea)              \evensidemargin = 51.32166pt
-(typearea)              \oddsidemargin  = 51.32166pt
+(typearea)              \textwidth      = 546.29297pt
+(typearea)              DIV departure   = 0%
+(typearea)              \evensidemargin = -46.6625pt
+(typearea)              \oddsidemargin  = -46.6625pt
 (typearea)             \paperheight     = 845.04694pt
-(typearea)              \textheight     = 454.0pt
-(typearea)              \topmargin      = 33.36087pt
-(typearea)              \headheight     = 15.0pt
-(typearea)              \headsep        = 18.0pt
-(typearea)              \topskip        = 10.0pt
-(typearea)              \footskip       = 42.0pt
-(typearea)              \baselineskip   = 12.0pt
+(typearea)              \textheight     = 644.3984pt
+(typearea)              \topmargin      = -48.1258pt
+(typearea)              \headheight     = 26.99992pt
+(typearea)              \headsep        = 32.39992pt
+(typearea)              \topskip        = 18.0pt
+(typearea)              \footskip       = 75.5998pt
+(typearea)              \baselineskip   = 21.59995pt
 (typearea)              on input line 1706.
 )
 \c@part=\count80
@@ -123,6 +130,8 @@ Package tocbasic Info: omitting babel extension for `lot'
 (tocbasic)             because of feature `nobabel' available
 (tocbasic)             for `lot' on input line 5451.
 \c@table=\count87
+Class scrartcl Info: Using old \@makefntext due to compatibility level
+(scrartcl)           less than 3.22 on input line 5602.
 Class scrartcl Info: Redefining `\numberline' on input line 5615.
 \bibindent=\dimen102
 ) (structure.tex
@@ -341,19 +350,19 @@ File: microtype.cfg 2018/01/14 v2.7a microtype main configuration file (RS)
 Package classicthesis Info: A4 paper, Palatino or other on input line 276.
 Package typearea Info: These are the values describing the layout:
 (typearea)             DIV  = areaset
-(typearea)             BCOR = 14.22636pt
+(typearea)             BCOR = 0.0pt
 (typearea)             \paperwidth      = 597.50793pt
 (typearea)              \textwidth      = 336.0pt
-(typearea)              \evensidemargin = 65.59715pt
-(typearea)              \oddsidemargin  = 65.59715pt
+(typearea)              \evensidemargin = 58.48398pt
+(typearea)              \oddsidemargin  = 58.48398pt
 (typearea)             \paperheight     = 845.04694pt
-(typearea)              \textheight     = 675.0pt
+(typearea)              \textheight     = 619.00027pt
 (typearea)              \topmargin      = -40.58768pt
-(typearea)              \headheight     = 15.0pt
-(typearea)              \headsep        = 18.0pt
-(typearea)              \topskip        = 10.0pt
-(typearea)              \footskip       = 42.0pt
-(typearea)              \baselineskip   = 12.0pt
+(typearea)              \headheight     = 23.0pt
+(typearea)              \headsep        = 32.39992pt
+(typearea)              \topskip        = 18.0pt
+(typearea)              \footskip       = 75.59981pt
+(typearea)              \baselineskip   = 21.59995pt
 (typearea)              on input line 276.
 
 (D:\ProgramFiles\MiKTex\tex\latex\booktabs\booktabs.sty
@@ -496,6 +505,8 @@ Package tocloft Info: The document has section divisions on input line 51.
 \newchnumberwidth=\skip94
 \figurelabelwidth=\skip95
 \tablelabelwidth=\skip96
+Class scrartcl Info: Using old \@makefntext due to compatibility level
+(scrartcl)           less than 3.22 on input line 637.
 
 Using KOMA-command "deffootnote" for footnote setup
 (D:\ProgramFiles\MiKTex\tex\latex\koma-script\scrtime.sty
@@ -525,19 +536,19 @@ Package caption Info: hyperref package is loaded.
 )
 Package typearea Info: These are the values describing the layout:
 (typearea)             DIV  = areaset
-(typearea)             BCOR = 14.22636pt
+(typearea)             BCOR = 0.0pt
 (typearea)             \paperwidth      = 597.50793pt
 (typearea)              \textwidth      = 370.0pt
-(typearea)              \evensidemargin = 48.59715pt
-(typearea)              \oddsidemargin  = 48.59715pt
+(typearea)              \evensidemargin = 41.48396pt
+(typearea)              \oddsidemargin  = 41.48396pt
 (typearea)             \paperheight     = 845.04694pt
-(typearea)              \textheight     = 709.0pt
+(typearea)              \textheight     = 653.00027pt
 (typearea)              \topmargin      = -51.92102pt
-(typearea)              \headheight     = 15.0pt
-(typearea)              \headsep        = 18.0pt
-(typearea)              \topskip        = 10.0pt
-(typearea)              \footskip       = 42.0pt
-(typearea)              \baselineskip   = 12.0pt
+(typearea)              \headheight     = 23.0pt
+(typearea)              \headsep        = 32.39992pt
+(typearea)              \topskip        = 18.0pt
+(typearea)              \footskip       = 75.59981pt
+(typearea)              \baselineskip   = 21.59995pt
 (typearea)              on input line 17.
 LaTeX Info: Redefining \spacedallcaps on input line 48.
 LaTeX Info: Redefining \spacedlowsmallcaps on input line 50.
@@ -577,8 +588,12 @@ Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
 (D:\ProgramFiles\MiKTex\tex\latex\base\t1enc.def
 File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
-))
-(D:\ProgramFiles\MiKTex\tex\latex\base\inputenc.sty
+)
+
+LaTeX Font Warning: Font shape `T1/cmr/m/n' in size <18> not available
+(Font)              size <17.28> substituted on input line 105.
+
+) (D:\ProgramFiles\MiKTex\tex\latex\base\inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks19
 \inpenc@posthook=\toks20
@@ -1283,50 +1298,50 @@ LaTeX Info: Redefining \not on input line 2144.
 ) ("Main Book.aux")
 \openout1 = `"Main Book.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 50.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 50.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 48.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 48.
 
 (D:\ProgramFiles\MiKTex\tex\latex\base\ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for LS1/stix/m/n on input line 50.
-LaTeX Font Info:    Try loading font information for LS1+stix on input line 50.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for LS1/stix/m/n on input line 48.
+LaTeX Font Info:    Try loading font information for LS1+stix on input line 48.
 
 
 (D:\ProgramFiles\MiKTex\tex\latex\stix\ls1stix.fd
 File: ls1stix.fd 2015/04/17 v1.1.2-latex STIX LS1 font definitions
 )
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for LS2/stix/m/n on input line 50.
-LaTeX Font Info:    Try loading font information for LS2+stix on input line 50.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for LS2/stix/m/n on input line 48.
+LaTeX Font Info:    Try loading font information for LS2+stix on input line 48.
 
 
 (D:\ProgramFiles\MiKTex\tex\latex\stix\ls2stix.fd
 File: ls2stix.fd 2015/04/17 v1.1.2-latex STIX LS2 font definitions
 )
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Try loading font information for T1+stix on input line 50.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Try loading font information for T1+stix on input line 48.
 
 (D:\ProgramFiles\MiKTex\tex\latex\stix\t1stix.fd
 File: t1stix.fd 2015/04/17 v1.1.2-latex STIX T1 font definitions
 )
 \AtBeginShipoutBox=\box34
-Package hyperref Info: Link coloring ON on input line 50.
+Package hyperref Info: Link coloring ON on input line 48.
 
 (D:\ProgramFiles\MiKTex\tex\latex\hyperref\nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1337,15 +1352,15 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 \c@section@level=\count130
 LaTeX Info: Redefining \Ref on input line 515.
 )
-LaTeX Info: Redefining \ref on input line 50.
-LaTeX Info: Redefining \pageref on input line 50.
-LaTeX Info: Redefining \nameref on input line 50.
+LaTeX Info: Redefining \ref on input line 48.
+LaTeX Info: Redefining \pageref on input line 48.
+LaTeX Info: Redefining \nameref on input line 48.
 
 ("Main Book.out") ("Main Book.out")
 \@outlinefile=\write3
 \openout3 = `"Main Book.out"'.
 
-LaTeX Info: Redefining \Ref on input line 50.
+LaTeX Info: Redefining \Ref on input line 48.
 
 (D:\ProgramFiles\MiKTex\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1373,7 +1388,7 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-LaTeX Info: Redefining \microtypecontext on input line 50.
+LaTeX Info: Redefining \microtypecontext on input line 48.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1389,7 +1404,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Try loading font information for T1+iwona on input line 67.
+LaTeX Font Info:    Try loading font information for T1+iwona on input line 68.
 
 
 (D:\ProgramFiles\MiKTex\tex\latex\iwona\t1iwona.fd
@@ -1399,24 +1414,22 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `iwona' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Font shape `T1/iwona/bx/n' in size <10> not available
-(Font)              Font shape `T1/iwona/b/n' tried instead on input line 67.
-LaTeX Font Info:    Font shape `T1/iwona/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/iwona/b/n' tried instead on input line 67.
+LaTeX Font Info:    Calculating math sizes for size <25.92004> on input line 68
+.
 LaTeX Font Info:    Try loading font information for LS1+stixscr on input line 
-67.
+68.
 
 (D:\ProgramFiles\MiKTex\tex\latex\stix\ls1stixscr.fd
 File: ls1stixscr.fd 2015/04/17 v1.1.2-latex STIX script LS1 font definitions
 )
 LaTeX Font Info:    Try loading font information for LS2+stixex on input line 6
-7.
+8.
 
 (D:\ProgramFiles\MiKTex\tex\latex\stix\ls2stixex.fd
 File: ls2stixex.fd 2015/04/17 v1.1.2-latex STIX extentions LS2 font definitions
 
 )
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 67.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 68.
 
 
 (D:\ProgramFiles\MiKTex\tex\latex\psnfss\ot1zplm.fd
@@ -1434,180 +1447,264 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Try loading font information for LS1+stixfrak on input line
- 67.
+ 68.
 
 (D:\ProgramFiles\MiKTex\tex\latex\stix\ls1stixfrak.fd
 File: ls1stixfrak.fd 2015/04/17 v1.1.2-latex STIX fraktur LS1 font definitions
 )
 LaTeX Font Info:    Try loading font information for LS1+stixbb on input line 6
-7.
+8.
 
 (D:\ProgramFiles\MiKTex\tex\latex\stix\ls1stixbb.fd
 File: ls1stixbb.fd 2015/04/17 v1.1.2-latex STIX blackboard LS1 font definitions
 
 )
 LaTeX Font Info:    Try loading font information for LS2+stixcal on input line 
-67.
+68.
 
 (D:\ProgramFiles\MiKTex\tex\latex\stix\ls2stixcal.fd
 File: ls2stixcal.fd 2015/04/17 v1.1.2-latex STIX calligraphic LS2 font definiti
 ons
 )
 LaTeX Font Info:    Try loading font information for LS1+stixsf on input line 6
-7.
+8.
 
 (D:\ProgramFiles\MiKTex\tex\latex\stix\ls1stixsf.fd
 File: ls1stixsf.fd 2015/04/17 v1.1.2-latex STIX sans-serif LS1 font definitions
 
 )
 LaTeX Font Info:    Try loading font information for LS2+stixtt on input line 6
-7.
+8.
 
 (D:\ProgramFiles\MiKTex\tex\latex\stix\ls2stixtt.fd
 File: ls2stixtt.fd 2015/04/17 v1.1.2-latex STIX typewriter LS2 font definitions
 
 )
-Package tocbasic Info: character protrusion at toc deactivated on input line 70
+Package tocbasic Info: character protrusion at toc deactivated on input line 68
 .
  ("Main Book.toc"
-LaTeX Font Info:    Font shape `T1/stix/bx/n' in size <10> not available
+LaTeX Font Info:    Font shape `T1/stix/bx/n' in size <18> not available
 (Font)              Font shape `T1/stix/b/n' tried instead on input line 1.
+LaTeX Font Info:    Calculating math sizes for size <18> on input line 1.
 )
 \tf@toc=\write4
 \openout4 = `"Main Book.toc"'.
 
+ [1{C:/Users/samfr/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
-
-Package hyperref Warning: Ignoring empty anchor on input line 77.
-
-[1
-
-
-{C:/Users/samfr/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+]
 Package microtype Info: Character `029' is missing
-(microtype)             in font `T1/iwona/m/sc/14.4'.
+(microtype)             in font `T1/iwona/m/sc/25.92004'.
 (microtype)             Ignoring protrusion settings for this character.
-
-Underfull \hbox (badness 10000) in paragraph at lines 101--107
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 101--107
+LaTeX Font Info:    Font shape `T1/iwona/bx/n' in size <18> not available
+(Font)              Font shape `T1/iwona/b/n' tried instead on input line 86.
+ [2]
+Underfull \hbox (badness 10000) in paragraph at lines 99--105
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--107
+Underfull \hbox (badness 10000) in paragraph at lines 99--105
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--107
+Underfull \hbox (badness 10000) in paragraph at lines 99--105
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--107
+Underfull \hbox (badness 10000) in paragraph at lines 99--105
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--107
+Underfull \hbox (badness 10000) in paragraph at lines 99--105
 
  []
 
-[2]
-LaTeX Font Info:    Font shape `T1/iwona/bx/sc' in size <10> not available
-(Font)              Font shape `T1/iwona/b/sc' tried instead on input line 115.
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--105
+
+ []
+
+[3] [4]
+LaTeX Font Info:    Font shape `T1/iwona/bx/sc' in size <18> not available
+(Font)              Font shape `T1/iwona/b/sc' tried instead on input line 113.
 
 Package microtype Info: Character `029' is missing
-(microtype)             in font `T1/iwona/b/sc/10'.
+(microtype)             in font `T1/iwona/b/sc/18'.
 (microtype)             Ignoring protrusion settings for this character.
-<Figures/Component_Diagrams/basic_sub.jpg, id=112, 648.5028pt x 513.8397pt>
+<Figures/Component_Diagrams/basic_sub.jpg, id=120, 648.5028pt x 513.8397pt>
 File: Figures/Component_Diagrams/basic_sub.jpg Graphic file (type jpg)
 <use Figures/Component_Diagrams/basic_sub.jpg>
 Package pdftex.def Info: Figures/Component_Diagrams/basic_sub.jpg  used on inpu
 t line 118.
-(pdftex.def)             Requested size: 332.99774pt x 263.85027pt.
-LaTeX Font Info:    Font shape `T1/iwona/bx/n' in size <9> not available
+(pdftex.def)             Requested size: 517.99774pt x 410.4294pt.
+
+Overfull \hbox (79.87186pt too wide) in paragraph at lines 117--119
+ []|  [] 
+ []
+
+LaTeX Font Info:    Font shape `T1/iwona/bx/n' in size <16.42511> not available
+
 (Font)              Font shape `T1/iwona/b/n' tried instead on input line 119.
-<Figures/Component_Diagrams/inside_sub.jpg, id=113, 713.3049pt x 575.9919pt>
+<Figures/Component_Diagrams/inside_sub.jpg, id=121, 713.3049pt x 575.9919pt>
 File: Figures/Component_Diagrams/inside_sub.jpg Graphic file (type jpg)
 <use Figures/Component_Diagrams/inside_sub.jpg>
 Package pdftex.def Info: Figures/Component_Diagrams/inside_sub.jpg  used on inp
-ut line 123.
-(pdftex.def)             Requested size: 332.99774pt x 268.89691pt.
-<Figures/Component_Diagrams/navigation_board.jpg, id=114, 238.491pt x 172.4844p
+ut line 125.
+(pdftex.def)             Requested size: 517.99774pt x 418.3085pt.
+
+Overfull \hbox (79.87186pt too wide) in paragraph at lines 124--126
+ []|  [] 
+ []
+
+[5 <./Figures/Component_Diagrams/basic_sub.jpg>]
+<Figures/Component_Diagrams/navigation_board.jpg, id=128, 238.491pt x 172.4844p
 t>
 File: Figures/Component_Diagrams/navigation_board.jpg Graphic file (type jpg)
 <use Figures/Component_Diagrams/navigation_board.jpg>
 Package pdftex.def Info: Figures/Component_Diagrams/navigation_board.jpg  used 
-on input line 128.
-(pdftex.def)             Requested size: 332.99774pt x 240.85538pt.
-<Figures/Component_Diagrams/handling_gear.jpg, id=115, 719.0865pt x 729.4452pt>
+on input line 132.
+(pdftex.def)             Requested size: 517.99774pt x 374.71364pt.
+
+Overfull \hbox (79.87186pt too wide) in paragraph at lines 131--133
+ []|  [] 
+ []
+
+[6 <./Figures/Component_Diagrams/inside_sub.jpg>]
+<Figures/Component_Diagrams/handling_gear.jpg, id=134, 719.0865pt x 729.4452pt>
 
 File: Figures/Component_Diagrams/handling_gear.jpg Graphic file (type jpg)
 <use Figures/Component_Diagrams/handling_gear.jpg>
 Package pdftex.def Info: Figures/Component_Diagrams/handling_gear.jpg  used on 
-input line 133.
-(pdftex.def)             Requested size: 370.0pt x 375.34013pt.
- [3 <./Figures/Component_Diagrams/basic_sub.jpg> <./Figures/Component_Diagrams/
-inside_sub.jpg>] [4 <./Figures/Component_Diagrams/navigation_board.jpg> <./Figu
-res/Component_Diagrams/handling_gear.jpg>] [5
+input line 139.
+(pdftex.def)             Requested size: 517.99774pt x 525.46727pt.
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 229--232
+Overfull \hbox (79.87186pt too wide) in paragraph at lines 138--140
+ []|  [] 
+ []
+
+[7 <./Figures/Component_Diagrams/navigation_board.jpg>]
+Overfull \vbox (11.43448pt too high) has occurred while \output is active []
+
+
+[8 <./Figures/Component_Diagrams/handling_gear.jpg>] [9
+
+] [10]
+Overfull \hbox (21.46996pt too wide) in paragraph at lines 226--227
+\T1/stix/m/n/18 thrusters of the sub-ma-rine. This is be-cause the thrusters
+ []
+
+
+Overfull \hbox (2.26875pt too wide) in paragraph at lines 226--227
+\T1/stix/m/n/18 Rasp-berry Pi, if one dies it doesn't af-fect the in-tegrity
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 235--238
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 229--232
+Underfull \hbox (badness 10000) in paragraph at lines 235--238
+
+ []
+
+[11]
+Overfull \hbox (1.02086pt too wide) in paragraph at lines 240--242
+[] []\T1/iwona/bx/sc/18/80ls sub-ma-rine bat-tery charge[] \T1/stix/m/n/18 When
+ charg-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 240--242
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--236
+Overfull \hbox (14.12595pt too wide) in paragraph at lines 240--242
+\T1/stix/m/n/18 at-tach-ment will al-ways be plugged into ground. Charg-
+ []
+
+[12]
+Overfull \hbox (18.125pt too wide) in paragraph at lines 250--251
+\T1/stix/m/n/18 TO BE FILLED IN WITH ADRIAN'S AS-SIS-TANCE,
+ []
+
+[13]
+Overfull \hbox (6.18039pt too wide) in paragraph at lines 273--274
+[]\T1/stix/m/n/18 In or-der to make sure the winch wire
+ []
+
+
+Overfull \hbox (7.60341pt too wide) in paragraph at lines 273--274
+\T1/stix/m/n/18 it-self isn't caught or in any way im-peded, merely
+ []
+
+
+Overfull \hbox (24.08661pt too wide) in paragraph at lines 274--275
+\T1/stix/m/n/18 ment and con-nec-tion. The fiber-optic ca-ble should
+ []
+
+[14]
+Overfull \hbox (1.78177pt too wide) in paragraph at lines 303--304
+[]\T1/stix/m/n/18 The cam-era servers
+ []
+
+[15]
+Overfull \hbox (21.79718pt too wide) in paragraph at lines 313--314
+[]\T1/stix/m/n/18 When run-ning python 3, file name
+ []
+
+
+Overfull \hbox (24.1814pt too wide) in paragraph at lines 313--314
+\T1/stix/m/n/18 thrusters_client.py, out-put should give "con-nected
+ []
+
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 332--333
 
  []
 
-[6] [7]
-Underfull \hbox (badness 10000) in paragraph at lines 326--327
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 335--336
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 329--330
+Underfull \hbox (badness 10000) in paragraph at lines 337--338
 
  []
 
+[18] [19]
+LaTeX Font Info:    Font shape `T1/iwona/bx/it' in size <18> not available
+(Font)              Font shape `T1/iwona/b/it' tried instead on input line 404.
 
-Underfull \hbox (badness 10000) in paragraph at lines 331--332
-
- []
-
-[8]
-LaTeX Font Info:    Font shape `T1/iwona/bx/it' in size <10> not available
-(Font)              Font shape `T1/iwona/b/it' tried instead on input line 398.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 417.
- [9]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 417.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 423.
+ [20] [21]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 423.
  ("Main Book.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 417.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 417.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 423.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 423.
 Package rerunfilecheck Info: File `"Main Book".out' has not changed.
 (rerunfilecheck)             Checksum: EC11EAC6297CCC50C401739D7C751550;1265.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 417.
+
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.72pt have occurred.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 423.
  ) 
 Here is how much of TeX's memory you used:
- 17459 strings out of 493305
- 301736 string characters out of 3141062
- 610683 words of memory out of 3000000
- 20670 multiletter control sequences out of 15000+200000
- 136286 words of font info for 149 fonts, out of 3000000 for 9000
+ 17417 strings out of 493305
+ 301472 string characters out of 3141062
+ 606706 words of memory out of 3000000
+ 20618 multiletter control sequences out of 15000+200000
+ 114357 words of font info for 130 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
- 61i,23n,86p,9092b,667s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 61i,22n,86p,9092b,670s stack positions out of 5000i,500n,10000p,200000b,50000s
 {D:/ProgramFiles/MiKTex/fonts/enc/dvips/iwona/ec-iwona.enc}{D:/ProgramFiles/M
 iKTex/fonts/enc/dvips/stix/stix-t1.enc}{D:/ProgramFiles/MiKTex/fonts/enc/dvips/
 iwona/ec-iwona-sc.enc}<D:/ProgramFiles/MiKTex/fonts/type1/public/stix/STIXGener
@@ -1617,9 +1714,9 @@ pfb><D:/ProgramFiles/MiKTex/fonts/type1/public/stix/STIXGeneral-Regular.pfb><D:
 ex/fonts/type1/nowacki/iwona/iwonabi.pfb><D:/ProgramFiles/MiKTex/fonts/type1/no
 wacki/iwona/iwonar.pfb><D:/ProgramFiles/MiKTex/fonts/type1/public/stix/stix-mat
 hrm.pfb>
-Output written on "Main Book.pdf" (9 pages, 4952909 bytes).
+Output written on "Main Book.pdf" (21 pages, 4960113 bytes).
 PDF statistics:
- 192 PDF objects out of 1000 (max. 8388607)
- 35 named destinations out of 1000 (max. 500000)
- 17069 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 246 PDF objects out of 1000 (max. 8388607)
+ 47 named destinations out of 1000 (max. 500000)
+ 13485 words of extra memory for PDF output out of 14400 (max. 10000000)
 

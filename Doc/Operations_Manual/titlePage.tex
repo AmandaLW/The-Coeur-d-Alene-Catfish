@@ -23,12 +23,20 @@
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-\documentclass[a4paper, 11pt]{book} % A4 paper size and default 11pt font size
+\documentclass[a4paper, 18pt]{scrartcl} % A4 paper size and default 11pt font size
 
 \usepackage{graphicx}
 \usepackage[utf8]{inputenc} % Required for inputting international characters
 \usepackage[T1]{fontenc} % Output font encoding for international characters
 \usepackage{stix} % Use the STIX fonts
+\usepackage{nopageno}
+\usepackage{afterpage}
+\usepackage{float}
+\newcommand\blankpage{%
+	\null
+	\thispagestyle{empty}%
+	\addtocounter{page}{-2}%
+	\newpage}
 
 \begin{document}
 
@@ -42,7 +50,7 @@
 	
 	\rule{1pt}{\textheight} % Vertical line
 	\hspace{0.05\textwidth} % Whitespace between the vertical line and title page text
-	\parbox[b]{0.75\textwidth}{ % Paragraph box for holding the title page text, adjust the width to move the title page left or right on the page
+	\parbox[b]{0.9\textwidth}{ % Paragraph box for holding the title page text, adjust the width to move the title page left or right on the page
 		
 		{\Huge\bfseries CDA Catfish
 			 \\[0.5\baselineskip] Robotic Submarine}\\[2\baselineskip] % Title
@@ -52,12 +60,17 @@
 		
 		\vspace{0.5\textheight} % Whitespace between the title block and the publisher
 		
-		{\noindent University of Idaho~~
-			\includegraphics[width=0.08\linewidth]{Assets/Logos/New_Logov1.png}}\\[\baselineskip] % Publisher and logo
 	}
 
 \end{titlepage}
 
 %----------------------------------------------------------------------------------------
+\blankpage
+   
+\blankpage
 
+\begin{figure}[H]
+	\hspace*{-2cm}
+	\includegraphics[width=1.2\columnwidth]{Assets/Logos/New_Logov1.png}
+\end{figure}
 \end{document}
