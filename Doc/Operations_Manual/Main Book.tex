@@ -94,12 +94,12 @@ This project focuses on creating and/or beginning development of an autonomous s
 \subsection*{The Submarine}
 The submarine itself has been provided by Gizmo Coeur d'Alene and is a small sized submarine and handling gear set. The Catfish has been to the bottom of Lake Pend Oreille and is confirmed to be airtight and functional at 1200 feet under the water. It is speculated that it is good to go under up to 1600 feet but this is untested.
 
-\subsection*{Term Definitions?}
+\subsection*{Term Definitions}
 
 \textit{Ballast} - heavy material, such as gravel, sand, iron, or lead, placed low in a vessel to improve its stability. \\ \\
 \textit{Handling Gear} - The set of gear that aids in deploying the submarine. Contains the tether, a winch, battery, communications module, and various storage. See Diagram \\ \\
 \textit{Idaho Catfish }  – The submarine nickname. \\ \\
-\textit{O-Ring} - a gasket in the form of a ring with a circular cross section, typically made of pliable material, used to seal connections in pipes, tubes, etc.
+\textit{O-Ring} - a gasket in the form of a ring with a circular cross section, typically made of pliable material, used to seal connections in pipes, tubes, etc. \\ \\
 \textit{Tethered } – The wires that connect the submarine to the surface, allowing for direct control and easier tracking of the submarine. Currently the submarine only runs tethered, it is not fully autonomous. \\ \\
 \textit{ V } - Stands for voltage, a way of measuring a charge in batteries. \\ \\
 
@@ -111,28 +111,28 @@ The submarine itself has been provided by Gizmo Coeur d'Alene and is a small siz
 
 \section{Basic Operations}
 \subsection{Components}
-\vspace*{15mm}
+\vspace*{5mm}
 \begin{figure}[H]
 	\centering 
 	\hspace*{-2.5cm}
 	\includegraphics[width=1.4\linewidth]{Figures/Component_Diagrams/basic_sub.jpg}
 	\caption[]{An overview of the submarine} % The text in the square bracket is the caption for the list of figures while the text in the curly brackets is the figure caption 
 \end{figure}
-\vspace*{15mm}
+\vspace*{5mm}
 \begin{figure}[H]
 	\centering 
 	\hspace*{-2.5cm}
 	\includegraphics[width=1.4\columnwidth]{Figures/Component_Diagrams/inside_sub.jpg}
 	\caption[]{An inside view of the submarine} % The text in the square bracket is the caption for the list of figures while the text in the curly brackets is the figure caption 
 \end{figure}
-\vspace*{15mm}
+\vspace*{5mm}
 \begin{figure}[H]
 	\centering 
 	\hspace*{-2.5cm}
 	\includegraphics[width=1.4\columnwidth]{Figures/Component_Diagrams/navigation_board.jpg}
 	\caption[]{An inside view of the submarines' camera main module} % The text in the square bracket is the caption for the list of figures while the text in the curly brackets is the figure caption 
 \end{figure}
-\vspace*{15mm}
+\vspace*{5mm}
 \begin{figure}[H]
 	\centering 
 	\hspace*{-2.5cm}
@@ -140,14 +140,32 @@ The submarine itself has been provided by Gizmo Coeur d'Alene and is a small siz
 	\caption[]{An overview of the handling gear} % The text in the square bracket is the caption for the list of figures while the text in the curly brackets is the figure caption 
 \end{figure}
 
-\clearpage
-\newpage
-
 %------------------------------------------------
 
 \subsection{Schematics}
 
-Schematic Pictures when Adrian and I make them go here.
+\begin{figure}[H]
+	\centering 
+	\hspace*{-2cm}
+	\includegraphics[width=1.1\columnwidth]{Figures/Component_Diagrams/fuse_schematic.jpg}
+	\caption[]{Fuse Power Layout} % The text in the square bracket is the caption for the list of figures while the text in the curly brackets is the figure caption 
+\end{figure}
+
+%------------------------------------------------
+
+%------------------------------------------------
+
+\subsection{Controller Layout}
+
+\begin{figure}[H]
+	\centering 
+	\hspace*{-2.5cm}
+	\includegraphics[width=1.4\columnwidth]{Figures/Component_Diagrams/dualshock_4_Layout.jpg}
+	\caption[]{Current Controller Layout} % The text in the square bracket is the caption for the list of figures while the text in the curly brackets is the figure caption 
+\end{figure}
+
+\clearpage
+\newpage
 %------------------------------------------------
 
 \subsection{Wiring Pins List}
@@ -179,10 +197,9 @@ The following is a list of the pins used per area. All wires are already numbere
 	\end{itemize}
 	\item Main Module Auxiliary (16 Pins)
 		\begin{itemize}[noitemsep]
-		\item \#1 Lights +12 VDC
+		\item \#1 Unused
 		\item \#2 Unused +12 VDC
-		\item \#3 Lights PWM
-		\item \#4-16 Unused
+		\item \#3-16 Unused
 	\end{itemize}
 	\item Main Module Thrusters (16 Pins)
 		\begin{itemize}[noitemsep]
@@ -247,10 +264,67 @@ When charging the handling gear, it functions in much the same way as the submar
 
 \subsection{Deployment}
 
-TO BE FILLED IN WITH ADRIAN'S ASSISTANCE, DUMMY TEXT FOLLOWS
+The following section is the steps involved in an actual deployment of the Catfish. In order to successfully place the submarine in the water, you will need both the submarine itself and its' handling gear. Once both are in position, act according to the following steps:
 
+\begin{enumerate}
+	\item Make the handling gear flat. This is done by removing the front wheel. All that needs to be done to accomplish this is to remove the bolt blocking the wheel from coming out and pulling on the wheel. The bolt itself can merely be pulled out by hand. If the wheel does not easily remove, a hammer may be needed to smack it out as it does get caught on the battery casing of the handling gear.
+	\item Power on the handling gear. The switch is on the opposite side of the wiring \& tether handler.
+	\item Next extend the swing to full height.
+	\begin{itemize}
+		\item First unhook the chains. You will need them to stabilize the handling gear swing as well as the pins.
+		\item Then pull the handling gear swing upwards and outwards until it is fully extended. There are markers for convenience. You will need to make sure that both the winch line and the tether cable have enough slack to accomplish this. Directions for movement are on the components diagram for the handling gear as well as on the handling gear itself.
+		\item After the swing is fully extended you will need to put the pins in the hole to block it and make sure it doesn't go back down. As you put the pins in make sure to pin the chains to the extended swing. This will make sure it doesn't fall flat and remains in the air at an angle.
+		\begin{itemize}
+			\item NOTE: The chains are uneven. The right chain will need to be two links in compared to the other chain. This evens it out more but one chain will still be more taut compared to the other.
+		\end{itemize}
+	\end{itemize}	
+	\item Place the submarine in front of the handling gear. It is fine if it is at an angle because once linked to the winch it will straighten out. 
+	\item Connect the submarine mast to the winch.
+	\item Also connect the tether to the Communications Module. 
+		\begin{itemize}
+				\item NOTE: If there is power on, DO NOT let the pins of the communications module tether touch ANY metal. This will blow the fuse inside the submarine Main Module and there will be no ability for communication to the Catfish.
+		\end{itemize}
+	\item Then move the Communications Module to the slot on the mast, bolting it into place. Its camera will provide a top down view.
+	\item Connect the ethernet cable from the host computer to the Communicator box. 
+	\item Run through the software checks in the Checks section below.
+	\item Power on the submarine by connecting both the PWM switch and the Pi switch located on the back of the submarine.		
+	\item Before lifting the submarine, take out the bar from the top of the swing and place it in the slot at the bottom of the handling gear. The purpose of this is for one team member to stand on the bar, thus stabilizing the handling gear itself as the other team member lowers the submarine via the winch.
+	\item Lift the submarine via the winch. 
+	\item Lower the submarine into the water.
+	\item After the submarine enters the water, reach over and pull the pin to release it from the winch. The tether will stay connected for now as it is our only connection to the submarine. It is also an emergency pull for the submarine.
+		\begin{itemize}
+				\item NOTE: If the submarine is lost/uncontrollable, it can be lifted via the tether. It is preferable to NOT pull it out of the water completely with the tether but it can be done.	
+		\end{itemize}
+	\item Control the submarine via controller or run the autonomous software (unavailable currently). 
+\end{enumerate}
 
 %------------------------------------------------
+
+\subsection{Catfish Collection}
+
+When ready to collect the Catfish, use the following procedure:
+
+\begin{enumerate}
+	\item Using the controller or GPS location tracking (unavailable currently) to bring the submarine to the surface/find the submarine.
+	\item If handling gear is not extended, refer to Deployment section for extending the handling gear.
+	\item Link the winch to the submarine mast. Operate winch to lift the submarine from the water.
+		\begin{itemize}
+			\item NOTE: Make sure to place the bar from the swing on the bottom of the handling gear and stand on it. You DON'T want to lose the handling gear.
+		\end{itemize}
+	\item Place submarine down. 
+	\item Power off the submarine. This is done by detaching the top part of the power cables on the back.
+	\item Unhook from winch and tether. Make sure to unbolt the Communications Module and replace on the handling gear.
+		\begin{itemize}
+			\item NOTE: DO NOT let the pins of the communications module tether touch ANY metal. This will blow the fuse inside the submarine Main Module and there will be no ability for communication to the Catfish.
+		\end{itemize}
+	\item Retract the handling gear. Unhook the pins and wrap the chains around the fully retracted swing. 
+	\item Retract the winch wire and the tether.
+	\item Power off the handling gear. The switch is on the opposite side of the winch \& tether control.
+	\item Unhook the Ethernet cable from both connections. 
+	\item Place cable and host laptop in bag. Place all tools in handling gear storage.
+	\item Replace the wheel and bolt on the handling gear.
+	\item Place the submarine and bag on the dolly.
+\end{enumerate}
 
 %------------------------------------------------
 
@@ -329,14 +403,40 @@ Further descriptions of the aforementioned checks are as follows:
 
 The Catfish itself is not watertight. It is divided into two halves, the upper and lower parts. The upper part of the submarine contains all the electronics, thrusters, and wires. The lower part of the submarine has the ballast and buoyancy materials. Water flows freely through all parts except the Main Module. The wires inside the Navigation Cable Box are waterproofed as well. If for any reason the inside of the Catfish needs to be accessed, please refer to the following sections: 
 
-\paragraph{Removing the Hull} This is fairly simple, all that is needed is to remove the screws. First, all the screws and bolts around the outside of the submarine EXCEPT the thruster screws/bolts will be removed. The reason for this is that it is easier to manage the thrusters falling off when they are the last to be removed. Next you remove the mast bolt and the mast itself. Once this is done, the top hull can be removed from the submarine. \\
+\paragraph{Removing the Hull} This is fairly simple, all that is needed is to remove the screws. 
 
-If you want to access the Main Module, then follow the next directions. First you want to unscrew the 2 6mm bolts under the face of the submarine camera. You also need to remove the bolts and washers from the long metal rods around the Main Module. Then you can slide the assembly off the insides of the module. Refer to diagram above in the Components section for an outline of the module.
+\begin{enumerate}
+	\item First, all the screws and bolts around the outside of the submarine EXCEPT the thruster screws/bolts will be removed. The reason for this is that it is easier to manage the thrusters falling off when they are the last to be removed. 
+	\item Next you remove the mast bolt and the mast itself. Once this is done, the top hull can be removed from the submarine. \\
+\end{enumerate}
+	If you want to access the Main Module, then follow the next directions. 
+\begin{enumerate}
+	\item First you want to unscrew the 2 6mm bolts under the face of the submarine camera. 
+	\item You also need to remove the bolts and washers from the long metal rods around the Main Module. 
+	\item Then you can slide the assembly off the insides of the module.
+\end{enumerate}
+
+ Refer to diagram above in the Components section for an outline of the module.
+ 
 \paragraph{Reattaching the Hull} When ready to reattach the Main Module and hull, please follow these directions. \\
 
-First is the reassembly of the Main Module casing. Make sure all the ends are clean, both on the metal rods and the cylinder casing. Also make sure the O-Rings are clean. Grease both ends of the cylindrical casing with silicon grease, a little grease goes a long way. This process is just to make the O-Rings happier when under pressure. Then you will slide this assembly back onto the Main Module insides, tucking in the wires as you go and pushing it taut. While keeping pressure up put the washers and bolts back in place on the long metal rods, these should spin on easily. If they do not, then you are using the bolts for the outside of the hull and not the ones for the Main Module. Lastly, screw in the 2 6mm bolts back under the face of the submarine camera. This can be done by hand. In order to test the tightness of the Main Module, you can use sound. Merely pull the rods like a guitar string and make sure they all sound the same. The face of the camera should be flush with the submarine.\\
+First is the reassembly of the Main Module casing.
+\begin{enumerate}
+	\item  Make sure all the ends are clean, both on the metal rods and the cylinder casing. 
+	\item Also make sure the O-Rings are clean. Grease both ends of the cylindrical casing with silicon grease, a little grease goes a long way. This process is just to make the O-Rings happier when under pressure. 
+	\item Then you will slide this assembly back onto the Main Module insides, tucking in the wires as you go and pushing it taut. 
+	\item While keeping pressure up put the washers and bolts back in place on the long metal rods, these should spin on easily. If they do not, then you are using the bolts for the outside of the hull and not the ones for the Main Module. 
+	\item Lastly, screw in the 2 6mm bolts back under the face of the submarine camera. This can be done by hand. In order to test the tightness of the Main Module, you can use sound. Merely pull the rods like a guitar string and make sure they all sound the same. The face of the camera should be flush with the submarine.\\
+\end{enumerate}
 
-To reattach the hull itself, just place the hull in place and screw in all the bolts except the thrusters and lights. After all the screws/bolts are in place, reattach the thrusters and then the lights which go under the thrusters. The lights can be pointed in different directions using the screw on the mount. After everything is tight, the mast can be reattached. The submarine is now reassembled.
+Next is the hull of the submarine.
+
+\begin{enumerate}
+	\item To reattach the hull itself, just place the hull in place and screw in all the bolts except the thrusters and lights. 
+	\item After all the screws/bolts are in place, reattach the thrusters and then the lights which go under the thrusters. The lights can be pointed in different directions using the screw on the mount. 
+	\item After everything is tight, the mast can be reattached. The submarine is now reassembled.
+\end{enumerate}
+
 %------------------------------------------------
 
 %----------------------------------------------------------------------------------------
