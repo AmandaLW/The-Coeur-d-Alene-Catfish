@@ -2,35 +2,35 @@
 \contentsline {section}{\numberline {2}{Basic Operations}}{5}{section.2}
 \contentsline {subsection}{\numberline {2.1}{Components}}{5}{subsection.2.1}
 \contentsline {subsection}{\numberline {2.2}{Schematics}}{9}{subsection.2.2}
-\contentsline {subsection}{\numberline {2.3}{Controller Layout}}{10}{subsection.2.3}
-\contentsline {subsection}{\numberline {2.4}{Wiring Pins List}}{11}{subsection.2.4}
-\contentsline {subsection}{\numberline {2.5}{Power on/off}}{13}{subsection.2.5}
-\contentsline {subsection}{\numberline {2.6}{Charging Battery}}{13}{subsection.2.6}
-\contentsline {paragraph}{{The Charger}}{13}{subsection.2.6}
-\contentsline {paragraph}{{Submarine Battery Charge}}{14}{subsection.2.6}
-\contentsline {paragraph}{{Handling Gear Charge}}{14}{subsection.2.6}
-\contentsline {subsection}{\numberline {2.7}{Deployment}}{15}{subsection.2.7}
-\contentsline {subsection}{\numberline {2.8}{Catfish Collection}}{18}{subsection.2.8}
-\contentsline {subsection}{\numberline {2.9}{Checks}}{20}{subsection.2.9}
-\contentsline {paragraph}{{Handling Gear - Preoperational Checks}}{20}{subsection.2.9}
-\contentsline {paragraph}{{Submarine - Preoperational Checks}}{22}{subsection.2.9}
-\contentsline {paragraph}{{Software Checks}}{22}{subsection.2.9}
-\contentsline {paragraph}{{Submarine - Postoperational Checks}}{23}{subsection.2.9}
-\contentsline {subsection}{\numberline {2.10}{Getting Inside the Catfish}}{24}{subsection.2.10}
-\contentsline {paragraph}{{Removing the Hull}}{24}{subsection.2.10}
-\contentsline {paragraph}{{Reattaching the Hull}}{25}{Item.33}
-\contentsline {section}{\numberline {3}{Using Software}}{27}{section.3}
-\contentsline {subsection}{\numberline {3.1}{Connecting to the Submarine}}{27}{subsection.3.1}
-\contentsline {paragraph}{{Ethernet Connection}}{27}{subsection.3.1}
-\contentsline {paragraph}{{Wireless Connection}}{27}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}{Moving the Submarine}}{28}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}{Taking Pics/Video}}{28}{subsection.3.3}
-\contentsline {paragraph}{{Where to Save}}{28}{subsection.3.3}
-\contentsline {paragraph}{{Streaming}}{28}{subsection.3.3}
-\contentsline {section}{\numberline {4}{System Configuration}}{28}{section.4}
-\contentsline {subsection}{\numberline {4.1}{Configuring 3D map?}}{28}{subsection.4.1}
-\contentsline {subsubsection}{\numberline {4.1.1}{Testing with the Turtle}}{28}{subsubsection.4.1.1}
-\contentsline {subsubsection}{\numberline {4.1.2}{Mapping Underwater}}{28}{subsubsection.4.1.2}
-\contentsline {subsection}{\numberline {4.2}{Changing the Raspberry Pi IP's}}{28}{subsection.4.2}
-\contentsline {section}{\numberline {5}{Consumer Info}}{28}{section.5}
-\contentsline {subsection}{\numberline {5.1}{Troubleshooting}}{28}{subsection.5.1}
+\contentsline {subsection}{\numberline {2.3}{Controller Layout}}{11}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}{Wiring Pins List}}{12}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}{Power on/off}}{14}{subsection.2.5}
+\contentsline {subsection}{\numberline {2.6}{Charging Battery}}{14}{subsection.2.6}
+\contentsline {paragraph}{{The Charger}}{14}{subsection.2.6}
+\contentsline {paragraph}{{Submarine Battery Charge}}{15}{subsection.2.6}
+\contentsline {paragraph}{{Handling Gear Charge}}{15}{subsection.2.6}
+\contentsline {subsection}{\numberline {2.7}{Deployment}}{16}{subsection.2.7}
+\contentsline {subsection}{\numberline {2.8}{Catfish Collection}}{19}{subsection.2.8}
+\contentsline {subsection}{\numberline {2.9}{Checks}}{21}{subsection.2.9}
+\contentsline {paragraph}{{Handling Gear - Preoperational Checks}}{21}{subsection.2.9}
+\contentsline {paragraph}{{Submarine - Preoperational Checks}}{23}{subsection.2.9}
+\contentsline {paragraph}{{Software Checks}}{23}{subsection.2.9}
+\contentsline {paragraph}{{Submarine - Postoperational Checks}}{24}{subsection.2.9}
+\contentsline {subsection}{\numberline {2.10}{Getting Inside the Catfish}}{25}{subsection.2.10}
+\contentsline {paragraph}{{Removing the Hull}}{25}{subsection.2.10}
+\contentsline {paragraph}{{Reattaching the Hull}}{26}{Item.33}
+\contentsline {section}{\numberline {3}{Using Software}}{28}{section.3}
+\contentsline {subsection}{\numberline {3.1}{Connecting to the Submarine}}{28}{subsection.3.1}
+\contentsline {paragraph}{{Ethernet Connection}}{28}{subsection.3.1}
+\contentsline {paragraph}{{Wireless Connection}}{28}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}{Moving the Submarine}}{29}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}{Taking Pics/Video}}{29}{subsection.3.3}
+\contentsline {paragraph}{{Where to Save}}{29}{subsection.3.3}
+\contentsline {paragraph}{{Streaming}}{29}{subsection.3.3}
+\contentsline {section}{\numberline {4}{System Configuration}}{29}{section.4}
+\contentsline {subsection}{\numberline {4.1}{Configuring 3D map?}}{29}{subsection.4.1}
+\contentsline {subsubsection}{\numberline {4.1.1}{Testing with the Turtle}}{29}{subsubsection.4.1.1}
+\contentsline {subsubsection}{\numberline {4.1.2}{Mapping Underwater}}{29}{subsubsection.4.1.2}
+\contentsline {subsection}{\numberline {4.2}{Changing the Raspberry Pi IP's}}{29}{subsection.4.2}
+\contentsline {section}{\numberline {5}{Consumer Info}}{29}{section.5}
+\contentsline {subsection}{\numberline {5.1}{Troubleshooting}}{29}{subsection.5.1}
