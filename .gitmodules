@@ -1,0 +1,6 @@
+[submodule "Code/CDA_Catfish_Software/g2x-submarine-v2"]
+	path = Code/CDA_Catfish_Software/g2x-submarine-v2
+	url = https://github.com/TimetoPretend54/g2x-submarine-v2
+[submodule "Code/CDA_Catfish_Software/g2x-submarine-v1"]
+	path = Code/CDA_Catfish_Software/g2x-submarine-v1
+	url = https://github.com/TimetoPretend54/g2x-submarine-v1
