@@ -175,6 +175,40 @@ The submarine itself has been provided by Gizmo Coeur d'Alene and is a small siz
 \newpage
 %------------------------------------------------
 
+\subsection{Submarine Parts List}
+
+The following is a list of components used inside the submarine:
+
+\begin{itemize}
+	\item Main Module
+	\begin{itemize}
+		\item Raspberry Pi 3
+		\item 32 GB microSD card
+		\item PiSense Hat (Internal pressure, temperature, compass, accelerometer, gyroscope)
+		\item PWM Hat
+		\item Realtime clock (pt. No DS1307)
+		\item Arduino Nano for reading voltage
+		\item ESC (x5)
+		\item Power regulator
+		\item Pressure/Temperature sensor for external treading
+		\item Pi Camera V2
+	\end{itemize}
+	\item Communications Module
+	\begin{itemize}
+		\item Raspberry Pi 3
+		\item 32GB microSD card
+		\item External pressure/temperature sensor
+		\item 1GB fiberoptic media converter
+		\item 4-port GB switch
+		\item Wide-angle camera
+		\item Realtime clock (pt. No DS1307)
+		\item Power supply
+		\item An extra set of fiber connections for a second GB connection
+	\end{itemize}
+\end{itemize}
+
+%------------------------------------------------
+
 \subsection{Wiring Pins List}
 
 The following is a list of the pins used per area. All wires are already numbered inside the submarines' main camera module. 
@@ -350,8 +384,15 @@ The purpose of these checks is to ensure the functionality of all submarine and 
 Further descriptions of the aforementioned checks are as follows:
 
 \begin{description}
-	\item[Voltage Check] In order to check the voltage of the handling gear battery, merely use the provided voltage check device in the same manner as the battery charger. Attach the red wire to power and the black wire to ground. The handling gear battery is very long lasting and therefore this check does not need to be done after every deployment, but also should not be significantly deferred.
-	\item[Winch Check] In order to make sure the winch wire itself isn't caught or in any way impeded, merely release the manual winch switch and pull on the wire. Then, in order to rest the integrity of power raising/lowering of the wire, use the control box on the side of the handling gear. Make sure to test both the forward and reverse aspects of the winch. 
+	\item[Voltage Check] In order to check the voltage of the handling gear battery, merely use the provided voltage check device in the same manner as the battery charger.
+	\begin{itemize}
+		\item Attach the red wire to power and the black wire to ground.
+	\end{itemize}  The handling gear battery is very long lasting and therefore this check does not need to be done after every deployment, but also should not be significantly deferred.
+	\item[Winch Check] In order to make sure the winch wire itself isn't caught or in any way impeded, these short steps are needed:
+	\begin{itemize}
+		\item Merely release the manual winch switch and pull on the wire.
+		\item Then, in order to rest the integrity of power raising/lowering of the wire, use the control box on the side of the handling gear.	
+	\end{itemize}   Make sure to test both the forward and reverse aspects of the winch. 
 	\item[Reel Check] The reel check is merely testing the large tether and making sure it has free movement and connection. The fiber-optic cable should be free to move, both in forward and reverse. There is a switch respective to this on the control box of the handling gear.
 \end{description}
 
@@ -391,7 +432,10 @@ Further descriptions of the aforementioned checks are as follows:
 	If pictures or recordings are wanted, a separate program is needed.
 	\item[Pi Login]
 	The IP address of the Raspberry Pi in the submarine main module is 192.168.2.1. If you desire to access the Communications module Raspberry Pi is 192.168.2.2.
-	\item[Trusters Check] When running python 3, file name thrusters\_client.py, output should give "connected to server". If testing thruster function, barely push forward on a controller analog. "Barely" is key because there is much less resistance in air than in water, so burning the thrusters is a risk.
+	\item[Trusters Check] When running python 3, file name thrusters\_client.py, output should give "connected to server". 
+	\begin{itemize}
+		\item If testing thruster function, barely push forward on a controller analog.
+	\end{itemize} "Barely" is key because there is much less resistance in air than in water, so burning the thrusters is a risk.
 \end{description}
 
 \paragraph{Submarine - Postoperational Checks}
@@ -451,29 +495,67 @@ Next is the hull of the submarine.
 %----------------------------------------------------------------------------------------
 
 \section{Using Software}
- connect ethernet cord and connect the tether.
-turn everything on
-OS SPECIFIC - change your ethernet specification range to 192.168.2.1 - 192.168.2.254
-the reason you change the range is so that you can access the pis, otherwise you cant connect. Make SURE the network range doesn't interfere with any nearby routers.
-
-After the initial setup, you can either VNC or SSH in.
-
-download the VNC viewer application if wanting to use it. Then you must open application and put in IP address; here you will enter the actual ip followed by a ":1". After that, it will ask you for the required login and password.
-
-Username: pi
-Pass: makerspace
-
-if you have a wireless network set up, you can set up a static ip. 192.168.0.207 for tp-link internet
-
 %------------------------------------------------
 
 \subsection{Connecting to the Submarine}
+In order to connect to the Submarine Raspberry Pi, depending on which type of connection that is to be used, refer to one of the following sections:
 
 \paragraph{Ethernet Connection}
+\begin{enumerate}
+	\item First, connect the Ethernet cord to the Communications box and connect the Navigation Cable to the Communications Module.	
+	\item Make sure everything is turned on. (Hangling Gear, Submarine) 
+	\item Next you can either VNC or SSH into the Raspberry Pi. The IP for this will be 192.168.2.1.
+	\begin{itemize}
+		\item Default Username: pi
+		\item Defualt Password: makerspace
+	\end{itemize}
+	\item Then open thruster\_client.py and change the host IP value to 192.168.2.1 (This will differ if using a new submarine as this static Ethernet IP is one we have configured.)
+	\item You can then refer to the section "Software Checks" for specifics on checking the connection.
+\end{enumerate}
+
 \paragraph{Wireless Connection}
+\begin{enumerate}
+	\item You will not need an wired connection at all to the submarine to access this way. This cannot be done underwater.	
+	\item Make sure everything is turned on. (Submarine) 
+	\item Next you can either VNC or SSH into the Raspberry Pi. The IP for this will be 192.168.0.207.
+	\begin{itemize}
+		\item Default Username: pi
+		\item Defualt Password: makerspace
+	\end{itemize}
+	\item Then go to thruster\_client.py and change the host IP value to 192.168.0.207 (This will differ if using a new submarine as this static Wireless IP is one we have configured.)
+	\item You can then refer to the section "Software Checks" for specifics on checking the connection.
+\end{enumerate}
 
+%------------------------------------------------
+%------------------------------------------------
 
+\subsection{Acquiring the Code}
+In order to run or change anything, you need to have the code first. The following sections relate to either obtaining the code, or installing various programs needed to make it run.
 
+\paragraph{GitKraken}
+One of the first things you'll want is something called GitKraken. It's a program that interfaces with Github in a way that makes it easier to pull, push, and commit changes. It will also automatically store any updates from any pulls in a local file designated by you. 
+
+Its' ability to sync up to Github and show any forks or files that others are working on is great.If you link to any additional repositories, it will also keep track of those for you.
+
+\paragraph{Python 3}
+You will need python 3 as all the code is written using it. Python 2.7 won't work, it has to be 3. In order to check this, just run the command "python3" in a terminal window. If it is not there, you will need to install it based on your OS' directions.
+
+\paragraph{Pygame - Python 3 version}
+This install also differs based on OS. It will correspond with the Python 3 version. The purpose of pygame is to keep track of the controller so if you plan on using it you will need this program.
+
+\paragraph{Cloning the Repository}
+By using Gitkraken, you can just clone the repository directly into your file system. Afterwards you will need to also acquiesce to the request that Gitkraken makes to pull files relating to the linking of the CDA Catfish repository and Gizmo's original code repository.
+
+\paragraph{Making a Path}
+	\begin{itemize}
+		\item In order to make a shortcut path for when you're typing in the 'thruster\_client.py' command, you will need to edit your 'bash.rc'.
+		\item Then you will need to input the following line:
+		
+		"alias g2x\_c = "PATH\_STRING\_HERE""
+		\item This will make it so you can just type 'cd g2x\_c' to move straight to the folder where 'thruster\_client.py' is.
+	\end{itemize} 
+
+ While this section isn't needed, it makes life a bit easier.
 %------------------------------------------------
 %------------------------------------------------
 
@@ -482,16 +564,32 @@ if you have a wireless network set up, you can set up a static ip. 192.168.0.207
 
 
 %------------------------------------------------
+%------------------------------------------------
+
+\subsection{Running in Simulation Mode}
+For the purpose of testing the submarine movement or code while NOT burning out the thrusters, it's important to place the submarine thrusters into simulation mode. This will simulate the thruster movement without the danger of burning out the thrusters. It is especially important because air has less resistance than water, which the thrusters are built for a water environment.
+
+\begin{enumerate}
+	\item SSH into the submarines' Raspberry Pi (or VNC)
+	\item Run the command 'sudo systemctl stop g2x-thruster.service'
+	\item Run the command 'g2x\_c' (if you have set up the path shortcut mentioned in the section "Making a Path"). If not the path is as follows: '~/Documents/Projects/g2x-submarine-v2/services/controllers'
+	\item Run the command './thruster-server.py -s -v' . This command simulates the thruster response.
+\end{enumerate}
+
+
+
+%------------------------------------------------
 
 %------------------------------------------------
 
 \subsection{Taking Pics/Video}
-
-
+When connecting to the stream servers, you are then able to record video or take screenshots. However, in order to accomplish this you need seperate software to record your screen. We are using the XBOX Apps' recording tools on Windows. This can be accessed by pushing the Windows Button and the 'G' key at the same time.
 
 \paragraph{Where to Save} 
+If using the XBOX App then all videos and screenshots will save to the Capture folder in the Videos folder. In order to move this, you just have to move the folder.
 
 \paragraph{Streaming} 
+The XBOX App also has a streaming feature that we have yet to experiment with.
 
 %------------------------------------------------
 
@@ -516,8 +614,6 @@ if you have a wireless network set up, you can set up a static ip. 192.168.0.207
 
 %------------------------------------------------
 
-\subsection{Changing the Raspberry Pi IP's}
-
 --------------------------------
 %	CONSUMER INFO
 %----------------------------------------------------------------------------------------
@@ -525,6 +621,44 @@ if you have a wireless network set up, you can set up a static ip. 192.168.0.207
 \section{Consumer Info}
 
 \subsection{Troubleshooting}
+
+\paragraph{Known Ubuntu Issues}
+\begin{itemize}
+	\item THRUSTERS OUT OF CONTROL
+	
+	When the controller isn't plugged in, Ubuntu thinks it is still receiving input from it. Thus, the thrusters will go haywire and will need to be unplugged. 
+	
+	Could be a kernel issue, or just an Ubuntu issue, still unsure.
+	
+	Right now we know that Ubuntu automatically connects to and receives input from the onboard laptop accellerometer. When connecting a controller, it also recieves both the input from the PS4 controller AND its gyroscope as seperate inputs. 
+	
+	Thus when running 'thruster\_client.py', it is receiving all three of these inputs and thus the thrusters go crazy.
+	
+	We have inputed a fix into the code that checks the name of the joystick. If the controller is not plugged in, it exits. If it is plugged in, it matches the name and ONLY the input from the controller itself is taken.
+	
+	NOTE 6/27/2018 Thrusters still go crazy
+	
+	Currently in order to resolve this, we are only running the software on either a Windows or a Mac machine. Our Ubuntu laptop is only being used for mapping purposes.
+	
+\end{itemize}
+
+\begin{itemize}
+	\item BUTTONS ARE WEIRD BETWEEN UBUNTU AND OTHER OS. 
+	
+	Kernel problems. Light buttons are mixed up. Square is bright, X is reset, O is dim.
+\end{itemize}
+
+\begin{itemize}
+	\item LIGHTS WONT COME ON. 
+	
+	Just hit the Square button then Triange again. The lights should come on.
+\end{itemize}
+
+\begin{itemize}
+	\item PYGAME MODULE ISN'T FOUND/DOESN'T EXIST. 
+	
+	There is a super long fix for this that involves multiple installs, upgrades, and updates. If we get around to documenting, it will go here.
+\end{itemize}
 
 
 \end{document}
