@@ -303,9 +303,9 @@ When charging the handling gear, it functions in much the same way as the submar
 
 %------------------------------------------------
 
-\subsection{Deployment}
+\subsection{Dock Deployment}
 
-The following section is the steps involved in an actual deployment of the Catfish. In order to successfully place the submarine in the water, you will need both the submarine itself and its' handling gear. Once both are in position, act according to the following steps:
+The following section is the steps involved in an actual deployment of the Catfish while on a dock. In order to successfully place the submarine in the water, you will need both the submarine itself and its' handling gear. Once both are in position, act according to the following steps:
 
 \begin{enumerate}
 	\item Make the handling gear flat. This is done by removing the front wheel. All that needs to be done to accomplish this is to remove the bolt blocking the wheel from coming out and pulling on the wheel. The bolt itself can merely be pulled out by hand. If the wheel does not easily remove, a hammer may be needed to smack it out as it does get caught on the battery casing of the handling gear.
@@ -341,13 +341,56 @@ The following section is the steps involved in an actual deployment of the Catfi
 
 %------------------------------------------------
 
+\subsection{Boat Deployment}
+
+The following section is the steps involved in an actual deployment of the Catfish while on the LASES research boat. In order to successfully place the submarine in the water, you will need both the submarine itself and its' handling gear. Once both are in position, act according to the following steps:
+
+\begin{enumerate}
+	\item Make the handling gear flat. This is done by removing the front wheel. All that needs to be done to accomplish this is to remove the bolt blocking the wheel from coming out and pulling on the wheel. The bolt itself can merely be pulled out by hand. If the wheel does not easily remove, a hammer may be needed to smack it out as it does get caught on the battery casing of the handling gear.
+	\item The handling gear should be against one side of the boat, in a position where it can extend towards the boat center.
+	\item The submarine should be placed in front of the handling gear temporarily.
+	\item Make sure the hoist is inserted into the metal slot closest to the boat cabin, opposite the handling gear.
+	\item Power on the handling gear. The switch is on the opposite side of the wiring \& tether handler.
+		\item Next pull the handling gear swing out.
+	\begin{itemize}
+		\item First unhook the chains from the pins on the handling gear. DO NOT remove the pins themselves, the handling gear does not need to extend fully.
+		\item Then pull the handling gear swing outwards partially so that it is vertical. This is to prevent the tether wheel from grinding on the handling gear itself.
+		\item After the swing is partially extended, reattach the chains.
+	\end{itemize}	
+	\item Extend the winch out to the hoist and put it through the small wheel located at the end of the hoist. The hoist itself acts as an extension of the handling gear.	
+	\item Connect the tether to the Communications Module. 
+	\begin{itemize}
+		\item NOTE: If there is power on, DO NOT let the pins of the communications module tether touch ANY metal. This will blow the fuse inside the submarine Main Module and there will be no ability for communication to the Catfish.
+	\end{itemize}
+	\item Then move the Communications Module to the slot on the mast, bolting it into place. Its camera will provide a top down view.	
+	\item Power on the submarine by connecting both the PWM switch and the Pi switch located on the back of the submarine.
+	\item Connect the ethernet cable from the host computer to the Communicator box. 	
+	\item Run through the software checks in the Checks section below.	
+	\item Place the submarine on the side of the boat next to the hoist. The sub should be facing away from the hoist. (The Camera end is the front)	
+	\item Attach the winch to the submarine at the base of the mast. (NOT the top for a boat dive) 
+	\item Make sure one person is standing on the handling gear/bar. They will also be the one controlling the winch and the tether. (Refer to the components diagrams for controlling the winch and tether if needed)
+	\item Lift the submarine.
+	\item Push the submarine away from the boat and lower it.
+	\item After the submarine enters the water, reach over and detach it from the winch. The tether will stay connected for now as it is our only connection to the submarine. It is also an emergency pull for the submarine.
+	\begin{itemize}
+		\item NOTE: If the submarine is lost/uncontrollable, it can be lifted via the tether. It is preferable to NOT pull it out of the water completely with the tether but it can be done.	
+	\end{itemize}
+	\item Control the submarine via controller or run the autonomous software (unavailable currently). 
+		\begin{itemize}
+		\item NOTE: At increased depths the submarine disconnects regularly. You may need to restart the thrusters.
+		\item NOTE*: While using the submarine, make sure the tether stays away from the boat motor. Otherwise, it may cut the cable, thus losing the submarine.
+	\end{itemize}
+\end{enumerate}
+
+%------------------------------------------------
+
 \subsection{Catfish Collection}
 
 When ready to collect the Catfish, use the following procedure:
 
 \begin{enumerate}
 	\item Using the controller or GPS location tracking (unavailable currently) to bring the submarine to the surface/find the submarine.
-	\item If handling gear is not extended, refer to Deployment section for extending the handling gear.
+	\item If handling gear is not extended, refer to Deployment section for extending the handling gear. (Unless on a boat)
 	\item Link the winch to the submarine mast. Operate winch to lift the submarine from the water.
 		\begin{itemize}
 			\item NOTE: Make sure to place the bar from the swing on the bottom of the handling gear and stand on it. You DON'T want to lose the handling gear.
