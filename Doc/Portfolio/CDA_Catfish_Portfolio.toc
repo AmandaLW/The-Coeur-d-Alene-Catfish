@@ -5,15 +5,15 @@
 \contentsline {subsection}{\numberline {1.4}Definition of Terms}{4}{subsection.1.4}
 \contentsline {subsubsection}{\numberline {1.4.1}ROS - Additional Info}{5}{subsubsection.1.4.1}
 \contentsline {section}{\numberline {2}Meetings and Minutes}{6}{section.2}
-\contentsline {subsection}{\numberline {2.1}5/24/2018 Team Meeting 1 Notes}{6}{subsection.2.1}
-\contentsline {section}{\numberline {3}Project Learning}{9}{section.3}
-\contentsline {section}{\numberline {4}Design Goals}{10}{section.4}
-\contentsline {section}{\numberline {5}Specifications and Constraints}{11}{section.5}
-\contentsline {section}{\numberline {6}System Diagrams}{12}{section.6}
-\contentsline {section}{\numberline {7}Analysis of Alternatives}{13}{section.7}
-\contentsline {section}{\numberline {8}Engineering Model}{14}{section.8}
-\contentsline {section}{\numberline {9}Manufacturing/Assembly Plan}{15}{section.9}
-\contentsline {section}{\numberline {10}Experimental Design}{16}{section.10}
-\contentsline {section}{\numberline {11}Data Analysis}{17}{section.11}
-\contentsline {section}{\numberline {12}Balance Sheet}{18}{section.12}
-\contentsline {section}{\numberline {13}Other Items}{19}{section.13}
+\contentsline {subsection}{\numberline {2.1}5/15/2018 Team Meeting 1 Notes}{6}{subsection.2.1}
+\contentsline {section}{\numberline {3}Project Learning}{11}{section.3}
+\contentsline {section}{\numberline {4}Design Goals}{12}{section.4}
+\contentsline {section}{\numberline {5}Specifications and Constraints}{13}{section.5}
+\contentsline {section}{\numberline {6}System Diagrams}{14}{section.6}
+\contentsline {section}{\numberline {7}Analysis of Alternatives}{15}{section.7}
+\contentsline {section}{\numberline {8}Engineering Model}{16}{section.8}
+\contentsline {section}{\numberline {9}Manufacturing/Assembly Plan}{17}{section.9}
+\contentsline {section}{\numberline {10}Experimental Design}{18}{section.10}
+\contentsline {section}{\numberline {11}Data Analysis}{19}{section.11}
+\contentsline {section}{\numberline {12}Balance Sheet}{20}{section.12}
+\contentsline {section}{\numberline {13}Other Items}{21}{section.13}

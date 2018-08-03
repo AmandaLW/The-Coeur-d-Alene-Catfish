@@ -113,10 +113,13 @@
 	\section{Meetings and Minutes}
 	Weekly action items and summaries of progress made are detailed below. Furthermore, subsections discuss what was helpful and what was not during these meetings. Discussion of attendance and participation, as well as contribution and discussion topics are discussed below.
 	
-		\subsection{5/24/2018 Team Meeting 1 Notes}
+		\subsection{5/15/2018 Team Meeting 1 Notes}
 		
 			\noindent
-			Project Scope Breakdown (Dr. Shovic, Adrian, Samantha started 9:00 am):
+			Adrian and Samantha present at 9:00 am, Dr. Shovic joined at 9:03 am. Meeting was held at the Innovation Den in Coeur d'Alene, everyone was accounted for and prepared. Purpose of the meeting was to discuss beginning of the research project, to outline goals, expectations, and any other additional information required to start the research project.
+		
+			\noindent
+			Project Scope Breakdown (Dr. Shovic, Adrian, Samantha started 9:05 am):
 			
 			\noindent
 			\begin{itemize}
@@ -257,11 +260,354 @@
 							\item But can test sonars at least
 						\end{itemize}
 					\end{itemize}
+					\item Document all the wires
 				\end{itemize}
 				\item Pod
-				
+				\begin{itemize}
+					\item Built by folks in Boise
+					\item Wireless interference from pod to submarine is a concern
+					\item Create software to communicate data (bi-directional link)
+					\item Arduino for Pod
+					\begin{itemize}
+						\item Thus don't need ROS for Arduino
+					\end{itemize}
+					\begin{itemize}
+						\item TCP/IP packet data sending
+						\item 1,024 bytes of data packages
+					\end{itemize}
+					\item RPI (Raspberry Pi 3)
+					\begin{itemize}
+						\item Wifi
+						\begin{itemize}
+							\item 2.4 GHz
+							\item highest water absorption frequency
+							\item Tens of centimeters
+						\end{itemize}
+						\item Wifi Arduino Shield on Arduino (Pod)
+						\begin{itemize}
+							\item Where data comes from
+						\end{itemize}
+					\end{itemize}
+					\item Metal Issue
+					\begin{itemize}
+						\item Nothing can transmit in/out usually
+						\item Piece of metal between submarine and pod
+						\begin{itemize}
+							\item Maybe cut out circular hole in metal probably?
+						\end{itemize}
+					\end{itemize}
+					\item Accuracy for sensors in Pod
+					\begin{itemize}
+						\item 10 Bits
+					\end{itemize}
+					\item Prototype GPS data to submarine through laptop
+				\end{itemize}
+				\item Effort
+				\begin{itemize}
+					\item Take a look at: Drone Controller Cards
+					\begin{itemize}
+						\item Card that stabilizes drone
+						\item Corrects yaw, roll, pitch
+						\item Keep submarine flat 
+						\item Submarine will act like a flying drone (just underwater)
+						\item Interfaced with ROS
+					\end{itemize}
+					\item Will have accelerometer
+					\item Simplify control system
+				\end{itemize}
+				\item Research Questions
+				\begin{itemize}
+					\item How the heck can we build a navigation system (with a cheap sonar)?
+					\item Debugging?
+					\item Implementing full tool-chain
+					\begin{itemize}
+						\item Turn into ROS interface
+					\end{itemize}
+				\end{itemize}
+				\item Boise - Conference Call
+				\begin{itemize}
+					\item Next Wednesday May 23rd
+				\end{itemize}
+				\item Other Questions
+				\begin{itemize}
+					\item What type of computer?
+					\begin{itemize}
+						\item Which OS, specifications, required software, etc?
+					\end{itemize}
+				\end{itemize}
+				\begin{figure}[!htb]
+					\centering
+					\includegraphics[width=130mm]{assets/Field_Test_Diagram.jpg}
+					\caption{5/14 Field Test Diagram \label{overflow}}
+				\end{figure}
 			\end{itemize}
-
+		
+			\noindent
+			Meeting concluded at 11:00 am
+			
+		\subsection{5/24/2018 Team Meeting 2 Notes}
+		
+		\noindent
+		Adrian and Samantha present at 9:30 am, the meeting was held in the classroom at the Innovation Den, Dr. Shovic arrived at 9:29 am. Meeting attire was required to be professional/formal, thus both teammates wore appropriate attire. Meeting agenda were printed out beforehand to keep meeting organized and structured.
+		
+		\noindent
+		The purpose of the meeting was to discuss ideas about the project, such as the acoustic modem, GPS system, water tanks, laptop specs, Wi-Fi in water, sonar sensors, Gizmo assistance, and budget decisions.
+		
+		\noindent
+		Meeting began at 9:31 am, everyone present, with printed meeting agendas for everyone
+		
+		\noindent
+		\begin{itemize}
+			\item Requirements for Catfish Logo
+			\begin{itemize}
+				\item Clean and abstract
+				\item University of Idaho "I" logo involved
+				\item Needs to be easily recognizable to "know" submarine
+				\item Mascot = catfish (maybe think like GitHub)
+				\item Color and black and white versions
+				\item Decal on side of submarine
+			\end{itemize}
+			\item Awareness of Project
+			\begin{itemize}
+				\item Scientific vs creative
+				\item Depends on the environment
+				\item Scientific community vs general public
+			\end{itemize}
+			\item Bayview - Submarine Tour
+			\begin{itemize}
+				\item Tours only for American citizens
+				\item Huge submarines (20 ft long)
+				\item Project with them?
+				\begin{itemize}
+					\item Maybe, they have fully autonomous submarine
+					\item Navigation, buoys hung 3-4 miles under lake, it gets GPS signals from them and send the data to the submarine
+					\item Trilateration to determine submarine location
+					\item Use their system to navigate the Gizmo submarine
+					\item Very difficult to get research money 
+					\item Office of Naval Research
+				\end{itemize}
+			\end{itemize}
+			\item DIY Boat
+			\begin{itemize}
+				\item Took boat of some kind
+				\item Circular boat with four propellers
+				\item Maybe just provide a design/feasibility of building one
+				\item Propellers separated by 90 degrees
+				\item Four motors allows to stay in one position
+				\item Need to know feasibility but not practical/physical use (block diagrams)
+			\end{itemize}
+			\item Sonars
+			\begin{itemize}
+				\item Naval Base might be able to donate sonars
+				\item Have currently 3 Maxbotix sonars, need 3 more
+				\item So 6 total sonars (up, down, left, right, forward, backward)
+				\item 3D print sensor holders
+				\item Need to publish/subscribe all of them
+			\end{itemize}
+			\item Acoustic Modem
+			\begin{itemize}
+				\item Want it on the boat when launching submarine
+				\begin{itemize}
+					\item Wi-Fi connection on boat?
+					\item 1-Mile connection
+				\end{itemize}
+				\item Simulate:
+				\begin{itemize}
+					\item Functions receives info
+					\item Receives info from socket
+				\end{itemize}
+				\item Modular manner (one routine and swap it out)
+				\item Idea:
+				\begin{itemize}
+					\item Analog to digital
+					\item Transmit low data
+					\item Sonar ultrasonic sensors
+					\item Ultrasonic transducer?
+				\end{itemize}
+			\end{itemize}
+			\item Water Tank
+			\begin{itemize}
+				\item Get water tank (small)
+				\item What about docking?
+				\item Will have to determine a location 
+				\item Gizmo tank will be best!
+			\end{itemize}
+			\item June Trial
+			\begin{itemize}
+				\item Figure out where we want to take it
+				\item So need Field Test 0!
+				\item Launch before June 26th for testing
+			\end{itemize}
+			\item Laptop Specs
+			\begin{itemize}
+				\item Get laptop ordered ASAP
+				\item Have Tim set it up (Ubuntu 16.04, ROS, Gazebo, Octomap)
+			\end{itemize}
+			\item Available Wires for Submarine
+			\begin{itemize}
+				\item Three to four needed for Acoustic Modem
+				\item Two lines for sonar sensors
+				\item Two antenna lines (sensor pod)
+				\item One external Wi-Fi antenna
+				\item Twenty three extra wires
+			\end{itemize}
+			\item Wi-Fi
+			\begin{itemize}
+				\item Arduino Wi-Fi shield good to go!
+				\item Need peer-to-peer connection
+				\item Need another Wi-Fi dongle with external atenna
+			\end{itemize}
+			\item Goals
+			\begin{itemize}
+				\item Capability, NOT complete product
+				\item Demonstrate some Autonomous Navigation
+				\item Expected results: capability and results! 
+				\item Design and document: future
+			\end{itemize}
+		\end{itemize}
+	
+		\noindent
+		Meeting concluded at 10:50 am
+	
+		\subsection{5/31/2018 Team Meeting 3 Notes}
+		
+		\noindent
+		Adrian and Samantha present at 9:27 am, the meeting was held in the classroom at the Innovation Den, Dr. Shovic arrived at 9:28 am. Meeting attire was required to be professional/formal, thus both teammates wore appropriate attire. Meeting agenda were printed out beforehand to keep meeting organized and structured. Had some printer errors for the agendas however, team had to reprint the agendas. 
+		
+		\noindent
+		The purpose of the meeting was to discuss the operations manual, the media event, upgrading the raspberry pi, and discussing the sensor pod. Also during the meeting address the sonar ideas about the submarine. Adrian provided handouts/diagrams about the sonar ideas. During the meeting went onto discuss the ideas of sonar and how to properly get data and properly navigate with it.
+		
+		\noindent
+		Meeting began at 9:15 am, everyone present, with printed meeting agendas for everyone. Ready for the meeting again, team is formally dressed.
+		
+		\noindent
+		\begin{itemize}
+			\item Next Wednesday
+			\begin{itemize}
+				\item Status meeting next week
+				\item Water through
+			\end{itemize}
+			\item Operations Manual
+			\begin{itemize}
+				\item Get done by next week
+				\item Need to have some assistance from me
+			\end{itemize}
+			\item Media Event
+			\begin{itemize}
+				\item Field Trial One
+			\end{itemize}
+			\item Wi-Fi Side
+			\begin{itemize}
+				\item Sensor pod being developed
+				\item PVC pipe
+				\item Two plastic pipes (make Wi-Fi transmission better)
+				\item Metal bottom of submarine (issue)
+			\end{itemize}
+			\item Raspberry Pi 3B+
+			\begin{itemize}
+				\item Currently have Raspberry Pi 3B, the "+" version provides a slightly higher clock rate
+				\item Also need to upgrade to Raspbian Stretch (currently sub is running Jessie)
+				\item Duplicate current image of submarine SD card
+			\end{itemize}
+			\item Sensor Pod
+			\begin{itemize}
+				\item Arduino AtMega2560 (tons of I/O)
+				\item 8K of RAM
+			\end{itemize}
+		\end{itemize}
+	
+		\noindent
+		Meeting concluded at 10:20 am
+	
+	
+		\subsection{6/5/2018 Team Meeting 4 Notes}
+	
+		\noindent
+		Adrian and Samantha present at 9:27 am, the meeting was held in the classroom at the Innovation Den, Dr. Shovic arrived at 9:28 am. Meeting attire was required to be professional/formal, thus both teammates wore appropriate attire. 
+		
+		\noindent
+		The purpose of the meeting was to discuss the operations manual (software side), discuss some short-term goals, current GitHub, a voltage monitor, taking apart the submarine, discussing trials next week, communication Arduino and Raspberry Pi, and finally Wi-Fi testing.
+		
+		\noindent
+		Meeting began at 9:30 am, everyone present, with printed meeting agendas for everyone. Ready for the meeting again, team is formally dressed, everyone ready as ever. 
+		
+		\noindent
+		\begin{itemize}
+			\item Operations Manual
+			\begin{itemize}
+				\item No legal stuff need to be included in it
+			\end{itemize}
+			\item To-Do
+			\begin{itemize}
+				\item Add battery voltage sensors
+				\item Monitor voltages and current (low: 11V, high: 13V)
+				\item INA 3221 Grove Board
+				\begin{itemize}
+					\item Monitor current and voltage
+					\item Measuring voltage possible
+					\item Current difficult to measure
+				\end{itemize}
+			\end{itemize}
+			\item GitHub
+			\begin{itemize}
+				\item Clean up code and put additional items in
+			\end{itemize}
+			\item Next Week
+			\begin{itemize}
+				\item Take tube out (where all components are)
+				\item Anything we do
+				\item Labeled neatly and clearly
+			\end{itemize}
+			\item Software Operations Manual
+			\begin{enumerate}
+				\item Current Software
+				\item Our Software (ROS) Version -> be well documented
+			\end{enumerate}
+			\item Next Week - Trials
+			\begin{itemize}
+				\item Next Friday Field Trail 0, June 15th
+				\item Field Trial One (End of June)
+			\end{itemize}
+			\item Code
+			\begin{itemize}
+				\item Communications between Raspberry Pi and Arduino 
+				\item TCP/IP packets
+				\item Or perhaps MQTT packets
+				\item Mosquito on Raspberry Pi (publish/subscribe system)
+			\end{itemize}
+			\item Field Trial One
+			\begin{itemize}
+				\item Arduino in battery and baggie
+				\item Strap it on the bottom of submarine
+			\end{itemize}
+			\item Test Raspberry Pi Wi-Fi Range
+			\item Ping Wi-Fi
+			\item Need to carry submarine around!
+			\item Will tell us how "leaky" the signal is
+		\end{itemize}
+	
+		\subsection{IWRRI Meeting - July 26th Launch Discussion}
+		
+		\noindent
+		Meeting located at the Harbor Center, Adrian and Samantha arrive at 10:00 am, the meeting was originally held in room 242 at the Harbor Center. Other guests were Charles Buck, Alan Kolok, and a few other individuals. However, Alan did not arrive on time, and was supposedly going to be 20 minutes late. Thus, we first went out to the dock at the Harbor Center and examined the boat. Then after 20 minutes Alan arrived.
+		
+		\noindent
+		The purpose of the meeting was to discuss the operations and schedule for the July 26th launch. In particular discuss guests, procedures, timing, location, and other details.
+		
+		\noindent
+		 Once Alan arrived we all sat outside on a table by the dock and the official meeting began at 10:20 am.
+		
+		\noindent
+		\begin{itemize}
+			\item Operations Manual
+			\begin{itemize}
+				\item No legal stuff need to be included in it
+			\end{itemize}
+			\item To-Do
+		
+		\noindent
+		Meeting concluded at 10:50 am	
+			
 		\newpage
 
 	\section{Project Learning}
