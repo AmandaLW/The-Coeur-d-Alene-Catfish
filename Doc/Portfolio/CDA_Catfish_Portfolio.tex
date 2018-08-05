@@ -697,6 +697,220 @@
 
 	\section{Project Learning}
 	Technologies used to solve problems are described below. Further discussion of these technologies are left in each section's subsections.
+	
+		\subsection{Team Info}
+		A discussion of the various pieces of info that relates to team information is provided below.
+		
+		% Remove Bullets from item list
+		{\renewcommand\labelitemi{}
+			% Begin list
+			\begin{itemize}
+				\item \textbf{Project Name}
+				\begin{itemize}
+					\item CDA Catfish
+				\end{itemize}
+				\item \textbf{Team Members}
+				\begin{itemize}
+					\item Adrian Beehner
+					\item Samantha Freitas
+				\end{itemize}
+				\item \textbf{Sponsor}
+				\begin{itemize}
+					\item Dr. John Shovic
+				\end{itemize}
+			\end{itemize}
+		
+		\begin{figure}[!htb]
+			\centering
+			\includegraphics[width=105mm]{assets/Team_Info.png}
+			\caption{Team Info \label{overflow}}
+		\end{figure}
+		
+		\clearpage
+		
+		
+		\subsection{Proof of Design}
+		A discussion of the various components is shown below, providing evidence of components working together:\\
+		
+		% Remove Bullets from item list
+		{\renewcommand\labelitemi{}
+			% Begin list
+			\begin{itemize}
+				\item \textbf{\textit{Navigation Module}}
+					\begin{itemize}
+						\item[] \textit{Hosed in G2X Shell, responsible for thruster control/navigation\\}
+						\item[] \textbf{Raspberry Pi 3B with G2X V2 Software}
+						\begin{itemize}
+							\item Single-Board Computer (SBC) running a Linux-based OS (Raspbian)
+							\item Raspbian runs the "g2x-submarine-v2" software upon boot
+							\item Raspberry Pi interfaced with PWM/Servo Hat (thus software can control the thrusters with specific repetitive timing pulses)
+						\end{itemize}
+						\item[] \textbf{PWM/Servo Hat for Raspberry Pi}
+						\begin{itemize}
+							\item Adds the capability to control 16 Servos with perfect timing
+							\item Up to 1.6 KHz with 12 bit precision, all completely free-running
+						\end{itemize}
+						\item[] \textbf{Electronic Speed Controller (x5)}
+						\begin{itemize}
+							\item Controls and regulates the speed of an electric motor. It may also provide reversing of the motor and dynamic braking
+							\item Interfaced with PWM/Servo Hat
+						\end{itemize}
+						\item[] \textbf{Connectors}
+						\begin{itemize}
+							\item 8-Pin Power Connector (all pins used)
+							\item 12-Pin Com Connector (for fiber optic connection between navigation module and communication module, pins 8-12 unused)
+							\item 16-Pin Auxiliary Connector (pins 4-16 unused)
+							\item 16-Pin Thruster Connector (pins 16 unused)
+							\item Pressure Sensor
+						\end{itemize}
+						\item[] \textbf{Misc.}
+						\begin{itemize}
+							\item Realtime Clock (I2C)
+							\item Arduino Nano (read voltage)
+							\item Power regulator
+							\item Pi Camera V2\\\\
+						\end{itemize}
+					\end{itemize}
+				\item \textbf{\textit{Communications Module}}
+				\begin{itemize}
+					\item[] \textit{Hosed in External Metallic Cylinder (attaches to mast), allows communication to Pi on navigation module\\}
+					\item[] \textbf{Raspberry Pi 3B}
+					\begin{itemize}
+						\item Single-Board Computer (SBC) running a Linux-based OS (Raspbian)
+						\item Acts as a access point for communication between Host PC and Navigation Module Pi
+					\end{itemize}
+					\item[] \textbf{Pi Sense Hat}
+					\begin{itemize}
+						\item Add-on board for reading internal pressure, temperature, compass, accelerometer, and gyroscope
+					\end{itemize}
+					\item[] \textbf{1 Gb (Gigabit) Fiberoptic Media Converter}
+					\begin{itemize}
+						\item Converts UTP Gigabit Ethernet to Fiber Optic
+						\item Fiber lengths up to 2Km
+						\item Wavelength: 1310nm
+					\end{itemize}
+					\item[] \textbf{4-Port Gb Switch}
+					\begin{itemize}
+						\item Allows different devices on a network to communicate
+						\item 4 auto-sensing Gigabit Ethernet ports
+						\item Non-blocking switching architecture
+					\end{itemize}
+					\item[] \textbf{Fiberoptic Tether}
+					\begin{itemize}
+						\item Provides Fiberoptic connection (2000 ft. of tether) to the Communicator on the Handling Gear
+						\item Communicator provides media converter between Fiberoptic and Ethernet (external PC Ethernet connection) 
+					\end{itemize}
+					\item[] \textbf{Navigation Fiberoptic Cable Plugin}
+					\begin{itemize}
+						\item Provides the Fiberoptic cable plugin (user plugs in cable) between the communications module and navigation module
+					\end{itemize}
+					\item[] \textbf{Misc.}
+					\begin{itemize}
+						\item Pi Camera V2
+						\item Realtime Clock (I2C)
+						\item Power Supply (5V from fiber optic connection)\\\\
+					\end{itemize}
+				\end{itemize}
+				\item \textbf{\textit{G2X Vehicle/Shell}}
+				\begin{itemize}	
+					\item[] \textit{Houses the Navigation Module, Navigation Cable Box, 5 Thrusters, Power Switches (PWM and Pi), Buoyancy Foam, and a 12V battery\\}
+					\item[] \textbf{T100 Thruster (x5)}
+					\begin{itemize}
+						\item Underwater thruster designed for marine robotics (created by Blue Robotics)
+						\item Over 5 lbs of thrust
+						\item Durable enough for great ocean depths
+						\item Brushless electric motor (PWM servo signal)
+					\end{itemize}
+					\item[] \textbf{Lumen Subsea Light for ROV/AUV (x2)}
+					\begin{itemize}
+						\item A 1500 lumen subsea LED light with servo signal control, daisy-chain connection for multiple lights, and smart over-temp protection
+						\item Made by Blue Robotics
+						\item Fully dimmable control using a PWM servo signal
+					\end{itemize}
+					\item[] \textbf{Navigation Cable Box}
+					\begin{itemize}
+						\item Deals with wiring for 8-Pin Power Connector, 16-Pin Auxiliary Connector, and 16-Pin Thruster Connector
+						\item Hoses wires which are not water-resistant but are interfaced with Navigation Module via being attached to 
+						\item Includes wires for Pi power and Thruster (PWM) power which then interface into the 8-pin power connector
+						\item Wiring interfacing the 5 T100 Thrusters into a singular waterproof wire that connects into the 16-Pin Thruster Connector
+						\item Wiring interfacing with the 2 Lumen Subsea Lights into a singular waterproof wire that connects into the 16-Pin Auxiliary Connector
+					\end{itemize}
+					\item[] \textbf{3 12V Batteries}
+					\begin{itemize}
+						\item Underneath main plate of the G2X Vehicle
+						\item 2 +12 VDC to thruster (PWM) power switch
+						\item 1 +12 VDC to CPU (Pi) power switch
+						\begin{itemize}
+							\item Provides power to Raspberry Pi and PWM thrusters
+						\end{itemize}
+					\end{itemize}
+					\item[] \textbf{Buoyancy Foam}
+					\begin{itemize}
+						\item Machinable, hydrostatic pressure-resistant foams that provide buoyancy underwater\\\\
+					\end{itemize}
+				\end{itemize}
+				\item \textbf{\textit{G2X Handling Gear}}
+				\begin{itemize}	
+					\item[] \textit{Houses the Communication Module, Storage Box, 12V Battery, Communicator, Reel (w/ Fiberoptic Cable), Winch, and Handling Wiring Box\\}
+					\item[] \textbf{Storage Box}
+					\begin{itemize}
+						\item Simple plastic box to house tools for launching and retrieving G2X vehicle, opening up components, etc.
+					\end{itemize}
+					\item[] \textbf{12V Battery}
+					\begin{itemize}
+						\item Provides power to the Handling Wiring Box and Communicator
+					\end{itemize}
+					\item[] \textbf{Communicator}
+					\begin{itemize}
+						\item Media converter from Ethernet to Fiberoptic Cable and vice versa
+						\item Translates the connection from the external PC to the Pi in the Navigation Box
+					\end{itemize}
+					\item[] \textbf{Reel w/ Fiberoptic Cable}
+					\begin{itemize}
+						\item 2000 ft. of Fiberoptic Cable on Reel to provide a tether and fiberoptic media connection (via external PC) with G2X Vehicle
+						\item Can be reeled in/out via the Handling Wiring Box
+					\end{itemize}
+					\item[] \textbf{Winch}
+					\begin{itemize}
+						\item ATV Winch used to lower the G2X vehicle into a body of water and retrieve it from the surface (from the body of water)
+						\item Reeled in/out via the Handling Wiring Box
+					\end{itemize}
+					\item[] \textbf{Handling Wiring Box}
+					\begin{itemize}
+						\item Box that provides controls for reeling in/out both the Fiberoptic tether/cable and Winch
+					\end{itemize}
+				\end{itemize}
+			\end{itemize}
+		}
+	
+		\noindent \\\\Diagrams that correlate to the information that is provided above discussing the proof of design is shown below. Images are provided in the diagram to help provide a visual for certain aspects.
+
+		\begin{figure}[!htb]
+			\centering
+			\includegraphics[width = 120mm]{assets/basic_sub.jpg}
+			\caption{Proof of Design - G2X Vehicle Image 1 \label{overflow}}
+		\end{figure}
+	
+		\begin{figure}[!htb]
+			\centering
+			\includegraphics[width = 120mm]{assets/inside_sub.jpg}
+			\caption{Proof of Design - G2X Vehicle Image 2 \label{overflow}}
+		\end{figure}
+	
+		\begin{figure}[!htb]
+			\centering
+			\includegraphics[width = 115mm]{assets/navigation_board.jpg}
+			\caption{Proof of Design - Navigation Module \label{overflow}}
+		\end{figure}
+	
+		\begin{figure}[!htb]
+			\centering
+			\includegraphics[width = 115mm]{assets/handling_gear.jpg}
+			\caption{Proof of Design - Handling Gear \label{overflow}}
+		\end{figure}
+		
+		% Create new Page (NEED TO USE clearpage because we have pictures that will affect it!)
+		\clearpage
 
 	\newpage
 		
