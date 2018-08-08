@@ -725,6 +725,7 @@
 			\includegraphics[width=105mm]{assets/Team_Info.png}
 			\caption{Team Info \label{overflow}}
 		\end{figure}
+		}	
 		
 		\clearpage
 		
@@ -917,7 +918,91 @@
 	\section{Design Goals}
 	Client needs and project goals are discussed below. A Timeline for these is also included. Discussion of revision of goals, and addition of any new goals is also discussed below.
 	
-	\newpage	
+		\subsection{Original Client Needs}
+		The needs of the Client (University of Idaho) are as follows:
+		
+		\begin{itemize}
+			\item Develop and research underwater autonomous navigation software
+			\item Show autonomous capability
+			\item Develop wireless protocol to transmit data from sensor pod to submarine
+			\item Operations manual of entire tool-chain
+			\item Have tool-chain properly tested and modified for any needed fixes/changes correlating to the project
+			\item Have software cooperate and be integrated with ROS
+			\item Test sonar \& ROS software on TurtleBot3 as prototype
+			\item Cooperate with 
+			\item Documentation - both professional (team based) and personal (logbook)
+			\item Complete documentation and understanding of tool-chain
+			\item Configured and optimized tool-chain
+			\item MQTT Wireless Protocol
+			\item Catfish Logo Design
+			\item Illustrations and diagrams for the entire tool-chain/system of the submarine
+			\item Current \& Voltage sensor for both the Raspberry Pi and the PWM Motors
+			\item Perform successful launches of the G2X submarine, both on a dock and on a boat
+			\item Prototype sonar sensors (TurtleBot3)
+			\item 3D print/design sonar holders on both the TurtleBot3 and the G2X Vehicle
+			\item Create GitHub repository that contains all documentation, code, and additional items for the research project
+			\item Laptop specifications for G2X software and additional software to run properly
+			\item Work with Department of Civil and Environmental Engineering Center for Ecohydraulics Research, who which will create the sensor pod for the G2X submarine
+			\item Create system diagram of all components of the project
+			\item Explore tether-less options for commanding the Submarine (acoustic modem, only internal software, pinging device, etc)
+			\item Linux support (ROS)
+		\end{itemize}
+	
+			\subsubsection{Additional Client Needs}
+			The additional needs of the Client (University of Idaho) that were added on as the project progressed are as follows:
+			
+			\begin{itemize}
+				\item Modify/fix existing G2X software issues
+				\item Update/edit G2X software that deals with supported controllers for the the G2X submarine
+				\item Update/edit G2X software that deals with fixing the PWM Thruster overload issue (thruster lose response to Pi)
+				\item Update/edit G2X software that deals with correct controller mapping for the DualShock 4 Controller on Linux Kernel 4.10+
+				\item Create access point to allow for MQTT communication between Pi(Sub) and Arduino(Sensor Pod)
+				\item Setup network configuration for Navigation Module Pi, Communications Module Pi on personal TP\_LINK access point, as well as static Ethernet ip on Windows/Linux computers.
+				\item Add extra fuses and determine fix for blowing a fuse in the Navigation Module due to the Fiber Optic Plug
+				\item Determine fix/problem for Communication Module leaking and which components suffered damage from leak
+				\item Perform extra boat tests for July 26th Media Launch
+				\item Determine how to properly haul gear to University of Idaho boat at Harbor Center
+				\item Determine how to properly launch the submarine and retrieve the submarine from a dock/boat
+				\item Check G2X software for any issues/conflicts that Websockets may present
+			\end{itemize}
+	
+		\clearpage
+	
+		\subsection{Project Goal}
+		The goal of this project is to develop the Coeur d'Alene Catfish, which is an autonomous robotic drone that is capable of reading water quality information from Coeur d'Alene lake, and other deep water lakes. The end result then should be the development (key word is development, not completion) of a submarine that can provide autonomous deployment within Coeur d'Alene lake and other deep water lakes. Reservoirs are also desired as well, which can be fairly difficult to navigate due to the problematic kinetic nature of the environment. This in turn allows public to the supervision of water bodies in local communities as well. The results from such surveys conducted by the drone will be shared with other interested stakeholders, this will include the Idaho Water Department of Environmental Quality (IDEQ) and Coeur d'Alene Tribe.\\
+		The research focuses on creating and/or starting beginning development into the infrastructure of an autonomous submarine (and sensor technologies). Thus the long term goal is a fully functional autonomous submarine that can collect water quality data in deep-water lakes and reservoirs. The short term goal is to develop the "CDA Catfish", submarine that can perform underwater surveys by continuously sampling a variety of water quality variables (oxygen, pH, temperature, etc).\\
+		Interested parties/sponsors for pursuing this research include the Idaho Water Resource Research Institute, the United States Geologic Survey, and the University of Idaho. The research is also in cooperation with Gizmo, Coeur d'Alene Maker Space.\\
+		
+		The product will give the user the ability to run launch the G2X submarine into a body of water and have the submarine navigate autonomously, via internal ROS software that establishes a 3D map and is either given coordinates within that map, or generates coordinates on its own to survey around the map and with these coordinates, determines a variety of routes to arrive at the location using SLAM (Simultaneous Localization and Mapping). Sonar sensors act as the eyes for the submarine, to build the map. The submarine will be expected to be tethered to received coordinate commands until a suitable/affordable tetherless alternative is discovered. G2X Software will be running on a Raspberry Pi 3B+ running Raspbian Stretch, while a remote computer will be running Ubuntu 16.04.
+		
+		\clearpage
+		
+		\subsection{Timeline}
+			This is the most recent timeline for the Catfish Project:\\\\
+			{ \setstretch{2.0}		
+				\scalebox{1}{  		
+					\begin{tabular}{r |@{\tline} l}  			
+						May & Planning/Scoping/Adjustments/Finalize Program Flow         \\			
+						June-July & Hardware \& Software Decision/Hardware \& Software Tinkering\\			
+						August-September & Hardware/Software Implementation and Initial Prototyping\\			
+						October-December & Prototype Product/Unit Testing\\			
+						January-March & Product Improvement, Evaluation, and Final Product Hardware Decisions \\			
+						April-June & Implementing and Producing Final Software/Hardware\\			
+						July-August  & Software/Hardware Scale Testing, Software Improvements\\			
+						September  & Testing\\			
+						October & Ship/Delivery (Deliver product)\\			
+					\end{tabular}  		
+				}  	
+			}
+	
+			\noindent \\The Gantt Chart representing our intended and actual shedule is shown in the figure below
+			\begin{figure}[ht!]
+				\centering
+				\includegraphics[width=170mm, height=85mm]{assets/Gantt_Chart.png}
+				\caption{Gantt Chart - Catfish Project \label{overflow}}
+			\end{figure}
+		
+			\clearpage	
 	
 	\section{Specifications and Constraints}
 	Discussion of client interviews, pictures, measurements, etc. are provided below. Design specifications and constraints are also presented. Reasoning for any constraints is also mentioned.
