@@ -22,9 +22,13 @@
 \BOOKMARK [1][-]{section.5}{Specifications and Constraints}{}% 22
 \BOOKMARK [1][-]{section.6}{System Diagrams}{}% 23
 \BOOKMARK [1][-]{section.7}{Analysis of Alternatives}{}% 24
-\BOOKMARK [1][-]{section.8}{Engineering Model}{}% 25
-\BOOKMARK [1][-]{section.9}{Manufacturing/Assembly Plan}{}% 26
-\BOOKMARK [1][-]{section.10}{Experimental Design}{}% 27
-\BOOKMARK [1][-]{section.11}{Data Analysis}{}% 28
-\BOOKMARK [1][-]{section.12}{Balance Sheet}{}% 29
-\BOOKMARK [1][-]{section.13}{Other Items}{}% 30
+\BOOKMARK [2][-]{subsection.7.1}{Sonar vs Underwater Lidar}{section.7}% 25
+\BOOKMARK [2][-]{subsection.7.2}{3D Mapping with Moveit! vs Navigation Stack \(ROS\)}{section.7}% 26
+\BOOKMARK [2][-]{subsection.7.3}{3D Mapping with Moveit! vs Navigation Stack \(ROS\)}{section.7}% 27
+\BOOKMARK [2][-]{subsection.7.4}{9V Battery - 1 vs 2 Quantity}{section.7}% 28
+\BOOKMARK [1][-]{section.8}{Engineering Model}{}% 29
+\BOOKMARK [1][-]{section.9}{Manufacturing/Assembly Plan}{}% 30
+\BOOKMARK [1][-]{section.10}{Experimental Design}{}% 31
+\BOOKMARK [1][-]{section.11}{Data Analysis}{}% 32
+\BOOKMARK [1][-]{section.12}{Balance Sheet}{}% 33
+\BOOKMARK [1][-]{section.13}{Other Items}{}% 34
