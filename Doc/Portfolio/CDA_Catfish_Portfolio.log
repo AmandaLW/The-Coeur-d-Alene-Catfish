@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.3.4)  15 JUN 2018 17:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.3.4)  21 AUG 2018 13:46
 entering extended mode
 **./CDA_Catfish_Portfolio.tex
 (CDA_Catfish_Portfolio.tex
@@ -318,7 +318,26 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 )
-(CDA_Catfish_Portfolio.aux)
+(CDA_Catfish_Portfolio.aux
+
+LaTeX Warning: Label `overflow' multiply defined.
+
+
+LaTeX Warning: Label `overflow' multiply defined.
+
+
+LaTeX Warning: Label `overflow' multiply defined.
+
+
+LaTeX Warning: Label `overflow' multiply defined.
+
+
+LaTeX Warning: Label `overflow' multiply defined.
+
+
+LaTeX Warning: Label `overflow' multiply defined.
+
+)
 \openout1 = `CDA_Catfish_Portfolio.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
@@ -426,7 +445,7 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-<assets/New_Logov1.png, id=75, 1065.9825pt x 1425.325pt>
+<assets/New_Logov1.png, id=123, 1065.9825pt x 1425.325pt>
 File: assets/New_Logov1.png Graphic file (type png)
 <use assets/New_Logov1.png>
 Package pdftex.def Info: assets/New_Logov1.png  used on input line 39.
@@ -441,7 +460,7 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 51.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<assets/uislogan.png, id=77, 1203.49625pt x 243.91125pt>
+<assets/uislogan.png, id=125, 1203.49625pt x 243.91125pt>
 File: assets/uislogan.png Graphic file (type png)
 <use assets/uislogan.png>
 Package pdftex.def Info: assets/uislogan.png  used on input line 66.
@@ -472,34 +491,224 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
  [5] [6]
-[7] [8] [9] [10] [11] [12] [13] [14] [15] [16]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 172.
- [17]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 172.
+[7] [8] [9]
+<assets/Field_Test_Diagram.jpg, id=215, 4047.12pt x 3035.34pt>
+File: assets/Field_Test_Diagram.jpg Graphic file (type jpg)
+<use assets/Field_Test_Diagram.jpg>
+Package pdftex.def Info: assets/Field_Test_Diagram.jpg  used on input line 340.
+
+(pdftex.def)             Requested size: 369.88582pt x 277.38353pt.
+ [10 <./assets/Field_Test_Diagram.jpg>] [11
+
+] [12] [13] [14
+
+] [15
+
+]
+[16] [17
+
+] [18
+
+]
+<assets/Team_Info.png, id=256, 337.26pt x 359.84438pt>
+File: assets/Team_Info.png Graphic file (type png)
+<use assets/Team_Info.png>
+Package pdftex.def Info: assets/Team_Info.png  used on input line 725.
+(pdftex.def)             Requested size: 298.75394pt x 318.76698pt.
+ [19
+
+ <./assets/Team_Info.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 734--735
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 742--743
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 772--773
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 772--773
+
+ []
+
+[20
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 777--778
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 812--813
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 812--813
+
+ []
+
+[21]
+Overfull \hbox (4.35446pt too wide) in paragraph at lines 817--818
+[]\OT1/cmr/m/it/12 Houses the Nav-i-ga-tion Mod-ule, Nav-i-ga-tion Ca-ble Box, 
+5 Thrusters, Power Switches
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 817--818
+
+ []
+
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 850--851
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 850--851
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 855--856
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 887--888
+
+ []
+
+<assets/basic_sub.jpg, id=277, 648.5028pt x 513.8397pt>
+File: assets/basic_sub.jpg Graphic file (type jpg)
+<use assets/basic_sub.jpg>
+Package pdftex.def Info: assets/basic_sub.jpg  used on input line 891.
+(pdftex.def)             Requested size: 341.43306pt x 270.53043pt.
+<assets/inside_sub.jpg, id=278, 713.3049pt x 575.9919pt>
+File: assets/inside_sub.jpg Graphic file (type jpg)
+<use assets/inside_sub.jpg>
+Package pdftex.def Info: assets/inside_sub.jpg  used on input line 897.
+(pdftex.def)             Requested size: 341.43306pt x 275.70833pt.
+<assets/navigation_board.jpg, id=279, 238.491pt x 172.4844pt>
+File: assets/navigation_board.jpg Graphic file (type jpg)
+<use assets/navigation_board.jpg>
+Package pdftex.def Info: assets/navigation_board.jpg  used on input line 903.
+(pdftex.def)             Requested size: 327.20668pt x 236.6654pt.
+<assets/handling_gear.jpg, id=280, 718.6047pt x 729.4452pt>
+File: assets/handling_gear.jpg Graphic file (type jpg)
+<use assets/handling_gear.jpg>
+Package pdftex.def Info: assets/handling_gear.jpg  used on input line 909.
+(pdftex.def)             Requested size: 327.20668pt x 332.14296pt.
+[23] [24 <./assets/basic_sub.jpg> <./assets/inside_sub.jpg>] [25 <./assets/navi
+gation_board.jpg> <./assets/handling_gear.jpg>] [26
+
+] [27]
+Underfull \hbox (badness 10000) in paragraph at lines 972--975
+
+ []
+
+[28
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 981--997
+
+ []
+
+
+Overfull \hbox (47.8122pt too wide) in paragraph at lines 981--997
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 981--997
+
+ []
+
+<assets/Gantt_Chart.png, id=310, 1173.63469pt x 405.76593pt>
+File: assets/Gantt_Chart.png Graphic file (type png)
+<use assets/Gantt_Chart.png>
+Package pdftex.def Info: assets/Gantt_Chart.png  used on input line 1001.
+(pdftex.def)             Requested size: 483.68259pt x 241.85165pt.
+
+Overfull \hbox (13.92757pt too wide) in paragraph at lines 1001--1002
+ [][] 
+ []
+
+[29
+
+] [30 <./assets/Gantt_Chart.png>] [31
+
+] [32]
+Underfull \hbox (badness 10000) in paragraph at lines 1021--1022
+
+ []
+
+[33] [34]
+Underfull \hbox (badness 10000) in paragraph at lines 1091--1092
+
+ []
+
+[35] [36]
+Underfull \hbox (badness 10000) in paragraph at lines 1161--1162
+
+ []
+
+[37] [38] [39]
+Underfull \hbox (badness 10000) in paragraph at lines 1237--1238
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1243--1244
+
+ []
+
+[40] [41] [42] [43] [44] [45] [46]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1279.
+ [47]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1279.
  (CDA_Catfish_Portfolio.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 172.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 172.
-Package rerunfilecheck Info: File `CDA_Catfish_Portfolio.out' has not changed.
-(rerunfilecheck)             Checksum: B6EEAE34FD665781B2CFF18D1C4BF393;1045.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 172.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1279.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1279.
+
+
+
+Package rerunfilecheck Warning: File `CDA_Catfish_Portfolio.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `CDA_Catfish_Portfolio.out':
+(rerunfilecheck)             Before: 59E617929915391EE5926AE3AB3D2AD6;1947
+(rerunfilecheck)             After:  E268D761A41E6BE07F32C7D4358851A3;2306.
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1279.
  ) 
 Here is how much of TeX's memory you used:
- 8940 strings out of 493303
- 133433 string characters out of 3138857
- 329466 words of memory out of 3000000
- 12333 multiletter control sequences out of 15000+200000
- 14233 words of font info for 55 fonts, out of 3000000 for 9000
+ 9059 strings out of 493303
+ 135285 string characters out of 3138857
+ 329567 words of memory out of 3000000
+ 12380 multiletter control sequences out of 15000+200000
+ 14939 words of font info for 57 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,8n,39p,1939b,377s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 37i,8n,39p,1940b,514s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmtt12.pfb>
-Output written on CDA_Catfish_Portfolio.pdf (17 pages, 190455 bytes).
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmtt12.pfb>
+Output written on CDA_Catfish_Portfolio.pdf (47 pages, 7909982 bytes).
 PDF statistics:
- 212 PDF objects out of 1000 (max. 8388607)
- 38 named destinations out of 1000 (max. 500000)
- 155 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 444 PDF objects out of 1000 (max. 8388607)
+ 101 named destinations out of 1000 (max. 500000)
+ 286 words of extra memory for PDF output out of 10000 (max. 10000000)
 

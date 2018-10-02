@@ -5,14 +5,30 @@
 \BOOKMARK [2][-]{subsection.1.4}{Definition of Terms}{section.1}% 5
 \BOOKMARK [3][-]{subsubsection.1.4.1}{ROS - Additional Info}{subsection.1.4}% 6
 \BOOKMARK [1][-]{section.2}{Meetings and Minutes}{}% 7
-\BOOKMARK [1][-]{section.3}{Project Learning}{}% 8
-\BOOKMARK [1][-]{section.4}{Design Goals}{}% 9
-\BOOKMARK [1][-]{section.5}{Specifications and Constraints}{}% 10
-\BOOKMARK [1][-]{section.6}{System Diagrams}{}% 11
-\BOOKMARK [1][-]{section.7}{Analysis of Alternatives}{}% 12
-\BOOKMARK [1][-]{section.8}{Engineering Model}{}% 13
-\BOOKMARK [1][-]{section.9}{Manufacturing/Assembly Plan}{}% 14
-\BOOKMARK [1][-]{section.10}{Experimental Design}{}% 15
-\BOOKMARK [1][-]{section.11}{Data Analysis}{}% 16
-\BOOKMARK [1][-]{section.12}{Balance Sheet}{}% 17
-\BOOKMARK [1][-]{section.13}{Other Items}{}% 18
+\BOOKMARK [2][-]{subsection.2.1}{5/15/2018 Team Meeting 1 Notes}{section.2}% 8
+\BOOKMARK [2][-]{subsection.2.2}{5/24/2018 Team Meeting 2 Notes}{section.2}% 9
+\BOOKMARK [2][-]{subsection.2.3}{5/31/2018 Team Meeting 3 Notes}{section.2}% 10
+\BOOKMARK [2][-]{subsection.2.4}{6/5/2018 Team Meeting 4 Notes}{section.2}% 11
+\BOOKMARK [2][-]{subsection.2.5}{IWRRI Meeting - July 26th Launch Discussion}{section.2}% 12
+\BOOKMARK [2][-]{subsection.2.6}{7/10/2018 Team Meeting 5 Notes}{section.2}% 13
+\BOOKMARK [1][-]{section.3}{Project Learning}{}% 14
+\BOOKMARK [2][-]{subsection.3.1}{Team Info}{section.3}% 15
+\BOOKMARK [2][-]{subsection.3.2}{Proof of Design}{section.3}% 16
+\BOOKMARK [1][-]{section.4}{Design Goals}{}% 17
+\BOOKMARK [2][-]{subsection.4.1}{Original Client Needs}{section.4}% 18
+\BOOKMARK [3][-]{subsubsection.4.1.1}{Additional Client Needs}{subsection.4.1}% 19
+\BOOKMARK [2][-]{subsection.4.2}{Project Goal}{section.4}% 20
+\BOOKMARK [2][-]{subsection.4.3}{Timeline}{section.4}% 21
+\BOOKMARK [1][-]{section.5}{Specifications and Constraints}{}% 22
+\BOOKMARK [1][-]{section.6}{System Diagrams}{}% 23
+\BOOKMARK [1][-]{section.7}{Analysis of Alternatives}{}% 24
+\BOOKMARK [2][-]{subsection.7.1}{Sonar vs Underwater Lidar}{section.7}% 25
+\BOOKMARK [2][-]{subsection.7.2}{3D Mapping with Moveit! vs Navigation Stack \(ROS\)}{section.7}% 26
+\BOOKMARK [2][-]{subsection.7.3}{3D Mapping with Moveit! vs Navigation Stack \(ROS\)}{section.7}% 27
+\BOOKMARK [2][-]{subsection.7.4}{9V Battery - 1 vs 2 Quantity}{section.7}% 28
+\BOOKMARK [1][-]{section.8}{Engineering Model}{}% 29
+\BOOKMARK [1][-]{section.9}{Manufacturing/Assembly Plan}{}% 30
+\BOOKMARK [1][-]{section.10}{Experimental Design}{}% 31
+\BOOKMARK [1][-]{section.11}{Data Analysis}{}% 32
+\BOOKMARK [1][-]{section.12}{Balance Sheet}{}% 33
+\BOOKMARK [1][-]{section.13}{Other Items}{}% 34
